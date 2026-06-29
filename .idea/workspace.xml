@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue" value="RiderCppLiveTemplatesSettings" type="string" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="2eba24bb-54c3-4088-933a-550755802d44" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="2eba24bb-54c3-4088-933a-550755802d44" />
+            <option name="modeId" value="Ask" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Volumes/Samsung PSSD T7/Codeforces" value="33uOwCB5Ksi0pJ2gShGdVC1LESV" />
+      <entry key="_/Volumes/Samsung PSSD T7/Codeforces/.idea" value="3DttE1JFfQuay3JojOpz3aIkea0" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Agent" />
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="GPT-5.1-Codex-Max" />
+      <entry key="agent-panel" value="GPT-5.1-Codex-Max" />
+    </selectedModels>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Arlan-007"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Arlan-007/Codeforces.git",
+    "accountId": "5b4baeaa-5a16-419c-bd3f-23e7f6bb03a4"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Contest/CP Games_2026/Ehab Is an Odd Person.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/DBMB and the Array.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/Monster Game.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/Pizza Delivery.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/Product Queries.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/Replace and sum.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/Replace_and_Sum.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/Reverse a Permutation.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1093 (Div. 2)/OIE Excursion.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1098 (Div. 2)/Cirno and Number (Easy Version).cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="cstg4yMV" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="33uOwCB5Ksi0pJ2gShGdVC1LESV" />
+  <component name="ProjectStatusUIService">{
+  &quot;uiKindId&quot;: &quot;Widget&quot;
+}</component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.Anton and Danik.cpp.executor": "Run",
+    "C/C++ File.Bear and Big Brother.cpp.executor": "Run",
+    "C/C++ File.Beautiful Matrix.cpp.executor": "Run",
+    "C/C++ File.Beautiful Year.cpp.executor": "Run",
+    "C/C++ File.Bit++.cpp.executor": "Run",
+    "C/C++ File.Boy or Girl.cpp.executor": "Run",
+    "C/C++ File.Calculating Function.cpp.executor": "Run",
+    "C/C++ File.Carpeting the Room.cpp.executor": "Run",
+    "C/C++ File.Cheap Travel.cpp.executor": "Run",
+    "C/C++ File.Domino piling.cpp.executor": "Run",
+    "C/C++ File.Drinks.cpp.executor": "Run",
+    "C/C++ File.Elephant.cpp.executor": "Run",
+    "C/C++ File.Even Odds.cpp.executor": "Run",
+    "C/C++ File.Favorite Sequence.cpp.executor": "Run",
+    "C/C++ File.Football.cpp.executor": "Run",
+    "C/C++ File.George and Accommodation.cpp.executor": "Run",
+    "C/C++ File.HQ9+.cpp.executor": "Run",
+    "C/C++ File.Helpful Maths.cpp.executor": "Run",
+    "C/C++ File.In Search of an Easy Problem.cpp.executor": "Run",
+    "C/C++ File.Magnets.cpp.executor": "Run",
+    "C/C++ File.Make It Increasing.cpp.executor": "Run",
+    "C/C++ File.Nearly Lucky Number.cpp.executor": "Run",
+    "C/C++ File.Next Round.cpp.executor": "Run",
+    "C/C++ File.Operations with Inversions.cpp.executor": "Run",
+    "C/C++ File.Optimal Shifts.cpp.executor": "Run",
+    "C/C++ File.Password Check.cpp.executor": "Run",
+    "C/C++ File.Petya and Strings.cpp.executor": "Run",
+    "C/C++ File.Presents.cpp.executor": "Run",
+    "C/C++ File.Queue at the School.cpp.executor": "Run",
+    "C/C++ File.Soldier and Bananas.cpp.executor": "Run",
+    "C/C++ File.Stones on the Table.cpp.executor": "Run",
+    "C/C++ File.Team.cpp.executor": "Run",
+    "C/C++ File.Tram.cpp.executor": "Run",
+    "C/C++ File.Translation.cpp.executor": "Run",
+    "C/C++ File.Twins.cpp.executor": "Run",
+    "C/C++ File.Vanya and Fence.cpp.executor": "Run",
+    "C/C++ File.Watermelon.cpp.executor": "Run",
+    "C/C++ File.Way Too Long Words.cpp.executor": "Run",
+    "C/C++ File.Word Capitalization.cpp.executor": "Run",
+    "C/C++ File.Word.cpp.executor": "Run",
+    "C/C++ File.Wrong Subtraction.cpp.executor": "Run",
+    "C/C++ File.hello.cpp (1).executor": "Run",
+    "C/C++ File.hello.cpp.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Volumes/Samsung PSSD T7/Codeforces",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/900" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Non-Contest" />
+      <recent name="$PROJECT_DIR$/Contest/CP Games_2026" />
+      <recent name="$PROJECT_DIR$/Contest/Codeforces Round 1089 (Div. 2)" />
+      <recent name="$PROJECT_DIR$/Contest" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="hello.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Codeforces" TARGET_NAME="hello.cpp" CONFIG_NAME="hello.cpp">
+      <option name="sourceFile" value="900/hello.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Codeforces" TARGET_NAME="hello.cpp" CONFIG_NAME="hello.cpp">
+      <option name="sourceFile" value="$PROJECT_DIR$/900/hello.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="" />
+      <created>1760163726287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760163726287</updated>
+      <workItem from="1760163727475" duration="29870000" />
+      <workItem from="1760504403266" duration="1000" />
+      <workItem from="1760641947790" duration="15000" />
+      <workItem from="1761407538897" duration="6859000" />
+      <workItem from="1761538873117" duration="37000" />
+      <workItem from="1761538946480" duration="37000" />
+      <workItem from="1761538995442" duration="601000" />
+      <workItem from="1761755278500" duration="16000" />
+      <workItem from="1765381533334" duration="15393000" />
+      <workItem from="1765641629831" duration="7911000" />
+      <workItem from="1767729950186" duration="610000" />
+      <workItem from="1767799176943" duration="5932000" />
+      <workItem from="1767891093795" duration="1334000" />
+      <workItem from="1767893285398" duration="3194000" />
+      <workItem from="1768069342230" duration="1584000" />
+      <workItem from="1768479951805" duration="1461000" />
+      <workItem from="1768502632811" duration="5057000" />
+      <workItem from="1768746868215" duration="8628000" />
+      <workItem from="1768813507572" duration="4495000" />
+      <workItem from="1769177026131" duration="675000" />
+      <workItem from="1769178202721" duration="302000" />
+      <workItem from="1769178669891" duration="10767000" />
+      <workItem from="1769351530437" duration="7387000" />
+      <workItem from="1769366294512" duration="2328000" />
+      <workItem from="1769446411222" duration="4095000" />
+      <workItem from="1769457016281" duration="21000" />
+      <workItem from="1769457228546" duration="3426000" />
+      <workItem from="1769697973479" duration="9236000" />
+      <workItem from="1770150845086" duration="127000" />
+      <workItem from="1770150986300" duration="2940000" />
+      <workItem from="1770223231595" duration="3561000" />
+      <workItem from="1770540756351" duration="713000" />
+      <workItem from="1770541552124" duration="6315000" />
+      <workItem from="1770560959856" duration="262000" />
+      <workItem from="1770564333727" duration="2502000" />
+      <workItem from="1770659072254" duration="1913000" />
+      <workItem from="1770661005564" duration="232000" />
+      <workItem from="1770661539330" duration="18000" />
+      <workItem from="1770661570097" duration="355000" />
+      <workItem from="1770662001196" duration="436000" />
+      <workItem from="1770746138101" duration="19171000" />
+      <workItem from="1770831264489" duration="62000" />
+      <workItem from="1770831409119" duration="210000" />
+      <workItem from="1770910344740" duration="281000" />
+      <workItem from="1770910644479" duration="4446000" />
+      <workItem from="1771097753684" duration="227000" />
+      <workItem from="1771263717090" duration="3138000" />
+      <workItem from="1771483662842" duration="2000" />
+      <workItem from="1771683746320" duration="6348000" />
+      <workItem from="1773671357855" duration="4648000" />
+      <workItem from="1774103615116" duration="750000" />
+      <workItem from="1774104385804" duration="45000" />
+      <workItem from="1774104487912" duration="5608000" />
+      <workItem from="1774203406326" duration="2512000" />
+      <workItem from="1774452110292" duration="2591000" />
+      <workItem from="1774548957286" duration="719000" />
+      <workItem from="1774623663118" duration="1594000" />
+      <workItem from="1774708453424" duration="5756000" />
+      <workItem from="1774795004150" duration="7978000" />
+      <workItem from="1775055671568" duration="5648000" />
+      <workItem from="1775311354473" duration="4783000" />
+      <workItem from="1775332872004" duration="1124000" />
+      <workItem from="1775571563211" duration="4502000" />
+      <workItem from="1775725276574" duration="641000" />
+      <workItem from="1775726761214" duration="3406000" />
+      <workItem from="1775834328099" duration="2300000" />
+      <workItem from="1775903828942" duration="213000" />
+      <workItem from="1775904053949" duration="2985000" />
+      <workItem from="1775986835352" duration="11386000" />
+      <workItem from="1776010068314" duration="1202000" />
+      <workItem from="1776089751996" duration="6464000" />
+      <workItem from="1776447848924" duration="806000" />
+      <workItem from="1776781766854" duration="51000" />
+      <workItem from="1777611842702" duration="1943000" />
+      <workItem from="1777626700812" duration="700000" />
+      <workItem from="1778941323406" duration="208000" />
+      <workItem from="1778941626010" duration="5175000" />
+      <workItem from="1779113079165" duration="7931000" />
+      <workItem from="1779295745851" duration="6495000" />
+      <workItem from="1779371567622" duration="7207000" />
+      <workItem from="1779468382194" duration="6242000" />
+      <workItem from="1779546852166" duration="7444000" />
+      <workItem from="1779554449993" duration="2004000" />
+      <workItem from="1779639299679" duration="2493000" />
+      <workItem from="1779642988543" duration="3914000" />
+      <workItem from="1779815176230" duration="6537000" />
+      <workItem from="1779902716967" duration="944000" />
+      <workItem from="1779987386858" duration="12000" />
+      <workItem from="1780080515885" duration="567000" />
+      <workItem from="1780151686932" duration="6377000" />
+      <workItem from="1780240980452" duration="2265000" />
+      <workItem from="1780417952408" duration="4243000" />
+      <workItem from="1780665939169" duration="717000" />
+      <workItem from="1780680357197" duration="4435000" />
+      <workItem from="1780765447027" duration="11186000" />
+      <workItem from="1780842581507" duration="2809000" />
+      <workItem from="1780927671914" duration="8568000" />
+      <workItem from="1781015047697" duration="7748000" />
+      <workItem from="1781023277586" duration="1848000" />
+      <workItem from="1781034224152" duration="2482000" />
+      <workItem from="1781083611607" duration="1619000" />
+      <workItem from="1781100281317" duration="448000" />
+      <workItem from="1781107545802" duration="1710000" />
+      <workItem from="1781109730444" duration="1655000" />
+      <workItem from="1781111848490" duration="15000" />
+      <workItem from="1781111869839" duration="1780000" />
+      <workItem from="1781181722603" duration="900000" />
+      <workItem from="1781185175195" duration="351000" />
+      <workItem from="1781274791765" duration="629000" />
+      <workItem from="1781282026728" duration="569000" />
+      <workItem from="1781368788401" duration="1425000" />
+      <workItem from="1781372768750" duration="2232000" />
+      <workItem from="1781440931211" duration="1820000" />
+      <workItem from="1781457480041" duration="16226000" />
+      <workItem from="1781712141874" duration="11057000" />
+      <workItem from="1781887354061" duration="3224000" />
+      <workItem from="1781942548652" duration="2857000" />
+      <workItem from="1782038648932" duration="1134000" />
+      <workItem from="1782061480777" duration="2433000" />
+      <workItem from="1782147140413" duration="325000" />
+      <workItem from="1782208852574" duration="16000" />
+      <workItem from="1782209835227" duration="68000" />
+      <workItem from="1782209911125" duration="2000" />
+      <workItem from="1782209935498" duration="7013000" />
+      <workItem from="1782569624948" duration="4423000" />
+      <workItem from="1782580548026" duration="586000" />
+      <workItem from="1782652848609" duration="11298000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Massive dump of all the previous files." />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
