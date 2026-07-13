@@ -37,41 +37,25 @@ fn main() {
         let n: usize = it.next().unwrap().parse().unwrap();
 
         let mut cand: Vec<u64> = Vec::new();
-
-        for len in 1..=bit_len(r) {
-            let group_l = 1u64 << (len - 1);
-            let group_r = (1u64 << len) - 1;
-
-            let left = l.max(group_l);
-            let right = r.min(group_r);
-
-            if left > right {
-                continue;
+        cand.push(l);
+        loop {
+            let mut now = *cand.last().unwrap();
+            let mut lowbit = 1u64;
+            while (now & lowbit) == 0 {
+                lowbit <<= 1;
             }
-
-            cand.push(left);
-
-            if left + 1 <= right {
-                cand.push(left + 1);
-            }
-
-            for k in 0..len {
-                let step = 1u64 << k;
-                let x = ((left + step - 1) / step) * step;
-                if x <= right {
-                    cand.push(x);
-                }
+            now += lowbit;
+            if now <= r {
+                cand.push(now);
+            } else {
+                break;
             }
         }
 
-        cand.sort();
-        cand.dedup();
-
         let mut best = String::new();
         for i in 0..cand.len() {
-            for j in i + 1..cand.len() {
+            for j in i..cand.len() {
                 let cur = product_prefix(cand[i], cand[j], n);
-
                 if best.is_empty() || cur < best {
                     best = cur;
                 }
