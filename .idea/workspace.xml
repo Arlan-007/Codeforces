@@ -28,14 +28,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="cp games july 13-14">
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1109 (Div. 3)/Anya_Loves_Trees.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1109 (Div. 3)/Iskander_and_Drawings.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1109 (Div. 3)/Masha_and_the_Garland.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1109 (Div. 3)/Nikita_and_Books.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1109 (Div. 3)/Stepan_and_Permutation.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1109 (Div. 3)/Yaroslav_and_Productivity.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1109 (Div. 3)/anya.rs" afterDir="false" />
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="Round 1109">
+      <change afterPath="$PROJECT_DIR$/Contest/Spectral::Cup 2026 Round 3 (Codeforces Round 1110, Div. 1 + Div. 2)/Construct_an_Array_Easy.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Spectral::Cup 2026 Round 3 (Codeforces Round 1110, Div. 1 + Div. 2)/Construct_an_Array_Hard.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Spectral::Cup 2026 Round 3 (Codeforces Round 1110, Div. 1 + Div. 2)/Delete_and_Concatenate.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Spectral::Cup 2026 Round 3 (Codeforces Round 1110, Div. 1 + Div. 2)/MEXOR.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Spectral::Cup 2026 Round 3 (Codeforces Round 1110, Div. 1 + Div. 2)/Who_Watches_the_Watchpig.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,12 +93,12 @@
     &quot;assignee&quot;: &quot;Arlan-007&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Arlan-007/Codeforces.git",
-    "accountId": "5b4baeaa-5a16-419c-bd3f-23e7f6bb03a4"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Arlan-007/Codeforces.git&quot;,
+    &quot;accountId&quot;: &quot;cba00334-f43f-477e-bdbb-218a1316c39b&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Contest/CP Games_2026/Ehab Is an Odd Person.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/DBMB and the Array.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -376,6 +374,8 @@
       <workItem from="1783965034976" duration="7391000" />
       <workItem from="1784039153465" duration="1102000" />
       <workItem from="1784044994411" duration="335000" />
+      <workItem from="1784211525254" duration="1838000" />
+      <workItem from="1784213938920" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
@@ -393,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783969768212</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Round 1109">
+      <option name="closed" value="true" />
+      <created>1784211605591</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1784211605591</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +416,8 @@
     <MESSAGE value="Massive dump of all the previous files." />
     <MESSAGE value="Educational Codeforces Round 192 done" />
     <MESSAGE value="cp games july 13-14" />
-    <option name="LAST_COMMIT_MESSAGE" value="cp games july 13-14" />
+    <MESSAGE value="Round 1109" />
+    <option name="LAST_COMMIT_MESSAGE" value="Round 1109" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
