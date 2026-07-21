@@ -28,12 +28,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="Round 1110">
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1111 (Div. 2)/Inversion_of_a_Subsequence.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1111 (Div. 2)/XOR_Sorting_Easy.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1111 (Div. 2)/Yet_Another_Constructive.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1111 (Div. 2)/Zero_Sum.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic.cpp" afterDir="false" />
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="Round 1111">
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Fishingprince Plays With Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Make It Round.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Phoenix and Towers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/String Typing.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +211,7 @@
       <recent name="$PROJECT_DIR$/Contest" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="C/C++ File.hello.cpp">
     <configuration name="hello.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Codeforces" TARGET_NAME="hello.cpp" CONFIG_NAME="hello.cpp">
       <option name="sourceFile" value="900/hello.cpp" />
       <method v="2">
@@ -378,6 +377,8 @@
       <workItem from="1784213938920" duration="77000" />
       <workItem from="1784384650168" duration="3838000" />
       <workItem from="1784485548640" duration="871000" />
+      <workItem from="1784655374918" duration="81000" />
+      <workItem from="1784655471505" duration="3031000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
@@ -411,7 +412,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784230603702</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Round 1111">
+      <option name="closed" value="true" />
+      <created>1784655391646</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1784655391646</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +437,8 @@
     <MESSAGE value="cp games july 13-14" />
     <MESSAGE value="Round 1109" />
     <MESSAGE value="Round 1110" />
-    <option name="LAST_COMMIT_MESSAGE" value="Round 1110" />
+    <MESSAGE value="Round 1111" />
+    <option name="LAST_COMMIT_MESSAGE" value="Round 1111" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
