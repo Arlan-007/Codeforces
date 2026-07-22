@@ -28,11 +28,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="Round 1111">
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Fishingprince Plays With Array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Make It Round.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Phoenix and Towers.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/String Typing.cpp" afterDir="false" />
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="cp games 21 july">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -378,7 +374,8 @@
       <workItem from="1784384650168" duration="3838000" />
       <workItem from="1784485548640" duration="871000" />
       <workItem from="1784655374918" duration="81000" />
-      <workItem from="1784655471505" duration="3031000" />
+      <workItem from="1784655471505" duration="3076000" />
+      <workItem from="1784718716468" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
@@ -420,7 +417,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784655391646</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="cp games 21 july">
+      <option name="closed" value="true" />
+      <created>1784658611552</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1784658611552</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +443,8 @@
     <MESSAGE value="Round 1109" />
     <MESSAGE value="Round 1110" />
     <MESSAGE value="Round 1111" />
-    <option name="LAST_COMMIT_MESSAGE" value="Round 1111" />
+    <MESSAGE value="cp games 21 july" />
+    <option name="LAST_COMMIT_MESSAGE" value="cp games 21 july" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
