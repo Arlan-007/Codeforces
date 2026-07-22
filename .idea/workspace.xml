@@ -28,8 +28,45 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="cp games 21 july">
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="random question solved using cdq d&amp;c">
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/It All Went Sideways.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Klever Permutation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Minimum number of steps.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Queen.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Suffix Operations.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/April Fools Day Contest 2026/And?" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/April Fools Day Contest 2026/Anomaly" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1081 (Div. 2)&#9;/All-in-one Gun" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1087 (Div. 2)/Array" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1087 (Div. 2)/Find the Zero" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1087 (Div. 2)/Flip Flops" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1087 (Div. 2)/Ghostfires" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1089 (Div. 2)/A Simple GCD Problem (Hard Version)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1091 (Div. 2)/Flip the Bit (Easy Version)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1091 (Div. 2)/Grid Covering" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1091 (Div. 2)/Interval Game" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1091 (Div. 2)/The Equalizer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1098 (Div. 2)/Cirno and Number (Easy Version)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1098 (Div. 2)/Cirno and Number (Hard Version)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1098 (Div. 2)/Remilia Plays Soku" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1105 (Div. 2)/Decidophobia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1105 (Div. 2)/Nim_Game_Is_XOR_Game" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1106 (Div. 2)/Cake_Trial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Codeforces Round 1106 (Div. 2)/Crimson_Triples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Educational Codeforces Round 188 (Rated for Div. 2)/Passing the Ball" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Educational Codeforces Round 188 (Rated for Div. 2)/Right Maximum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Educational Codeforces Round 188 (Rated for Div. 2)/Spring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)/Antimedian Deletion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)/Equal Multisets (Easy Version)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)/Equal Multisets (Hard Version)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contest/Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)/Mickey Mouse Constructive" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HACK/monster game" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Non-Contest/Interval_Mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Non-Contest/Matching_Numbers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Non-Contest/Multiplication_Table" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Non-Contest/Test_Generator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Non-Contest/Zhily_and_Bracket_Swapping" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,86 +160,87 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.Anton and Danik.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Bear and Big Brother.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Beautiful Matrix.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Beautiful Year.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Bit++.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Boy or Girl.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Calculating Function.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Carpeting the Room.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Cheap Travel.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Domino piling.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Drinks.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Elephant.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Even Odds.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Favorite Sequence.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Football.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.George and Accommodation.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.HQ9+.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Helpful Maths.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.In Search of an Easy Problem.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Magnets.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Make It Increasing.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Nearly Lucky Number.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Next Round.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Operations with Inversions.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Optimal Shifts.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Password Check.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Petya and Strings.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Presents.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Queue at the School.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Soldier and Bananas.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Stones on the Table.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Team.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Tram.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Translation.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Twins.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Vanya and Fence.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Watermelon.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Way Too Long Words.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Word Capitalization.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Word.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Wrong Subtraction.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.hello.cpp (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.hello.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Samsung PSSD T7/Codeforces&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.Anton and Danik.cpp.executor": "Run",
+    "C/C++ File.Bear and Big Brother.cpp.executor": "Run",
+    "C/C++ File.Beautiful Matrix.cpp.executor": "Run",
+    "C/C++ File.Beautiful Year.cpp.executor": "Run",
+    "C/C++ File.Bit++.cpp.executor": "Run",
+    "C/C++ File.Boy or Girl.cpp.executor": "Run",
+    "C/C++ File.Calculating Function.cpp.executor": "Run",
+    "C/C++ File.Carpeting the Room.cpp.executor": "Run",
+    "C/C++ File.Cheap Travel.cpp.executor": "Run",
+    "C/C++ File.Domino piling.cpp.executor": "Run",
+    "C/C++ File.Drinks.cpp.executor": "Run",
+    "C/C++ File.Elephant.cpp.executor": "Run",
+    "C/C++ File.Even Odds.cpp.executor": "Run",
+    "C/C++ File.Favorite Sequence.cpp.executor": "Run",
+    "C/C++ File.Football.cpp.executor": "Run",
+    "C/C++ File.George and Accommodation.cpp.executor": "Run",
+    "C/C++ File.HQ9+.cpp.executor": "Run",
+    "C/C++ File.Helpful Maths.cpp.executor": "Run",
+    "C/C++ File.In Search of an Easy Problem.cpp.executor": "Run",
+    "C/C++ File.Magnets.cpp.executor": "Run",
+    "C/C++ File.Make It Increasing.cpp.executor": "Run",
+    "C/C++ File.Nearly Lucky Number.cpp.executor": "Run",
+    "C/C++ File.Next Round.cpp.executor": "Run",
+    "C/C++ File.Operations with Inversions.cpp.executor": "Run",
+    "C/C++ File.Optimal Shifts.cpp.executor": "Run",
+    "C/C++ File.Password Check.cpp.executor": "Run",
+    "C/C++ File.Petya and Strings.cpp.executor": "Run",
+    "C/C++ File.Presents.cpp.executor": "Run",
+    "C/C++ File.Queue at the School.cpp.executor": "Run",
+    "C/C++ File.Soldier and Bananas.cpp.executor": "Run",
+    "C/C++ File.Stones on the Table.cpp.executor": "Run",
+    "C/C++ File.Team.cpp.executor": "Run",
+    "C/C++ File.Tram.cpp.executor": "Run",
+    "C/C++ File.Translation.cpp.executor": "Run",
+    "C/C++ File.Twins.cpp.executor": "Run",
+    "C/C++ File.Vanya and Fence.cpp.executor": "Run",
+    "C/C++ File.Watermelon.cpp.executor": "Run",
+    "C/C++ File.Way Too Long Words.cpp.executor": "Run",
+    "C/C++ File.Word Capitalization.cpp.executor": "Run",
+    "C/C++ File.Word.cpp.executor": "Run",
+    "C/C++ File.Wrong Subtraction.cpp.executor": "Run",
+    "C/C++ File.hello.cpp (1).executor": "Run",
+    "C/C++ File.hello.cpp.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Volumes/Samsung PSSD T7/Codeforces",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/900" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Non-Contest" />
       <recent name="$PROJECT_DIR$/Contest/CP Games_2026" />
+      <recent name="$PROJECT_DIR$/Non-Contest" />
       <recent name="$PROJECT_DIR$/Contest/Codeforces Round 1089 (Div. 2)" />
       <recent name="$PROJECT_DIR$/Contest" />
     </key>
@@ -376,6 +414,8 @@
       <workItem from="1784655374918" duration="81000" />
       <workItem from="1784655471505" duration="3076000" />
       <workItem from="1784718716468" duration="601000" />
+      <workItem from="1784731456420" duration="179000" />
+      <workItem from="1784742000396" duration="3084000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
@@ -425,7 +465,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784658611552</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="random question solved using cdq d&amp;c">
+      <option name="closed" value="true" />
+      <created>1784731631143</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1784731631143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +492,8 @@
     <MESSAGE value="Round 1110" />
     <MESSAGE value="Round 1111" />
     <MESSAGE value="cp games 21 july" />
-    <option name="LAST_COMMIT_MESSAGE" value="cp games 21 july" />
+    <MESSAGE value="random question solved using cdq d&amp;c" />
+    <option name="LAST_COMMIT_MESSAGE" value="random question solved using cdq d&amp;c" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
