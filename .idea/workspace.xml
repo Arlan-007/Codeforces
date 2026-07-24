@@ -28,11 +28,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="cp games 22 july">
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Min-Max Array Transformation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Minimize the Permutation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Permutations.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/String Equality.cpp" afterDir="false" />
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="cp games 23 july">
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Hidden Knowledge of the Ancients.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Lucky Transformation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Smilo and Monsters.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +99,9 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Contest/CP Games_2026/Ehab Is an Odd Person.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/CP Games_2026/Minimize the Permutation.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/CP Games_2026/Permutations.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/CP Games_2026/String Equality.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/DBMB and the Array.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/Monster Game.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/Pizza Delivery.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -119,6 +121,20 @@
   <component name="ProjectId" id="33uOwCB5Ksi0pJ2gShGdVC1LESV" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectSessionTemplates">
+    <option name="inlineTemplate">
+      <template>
+        <option name="modeId" value="InlineAgent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
   </component>
   <component name="ProjectStatusUIService">{
   &quot;uiKindId&quot;: &quot;Widget&quot;
@@ -385,6 +401,8 @@
       <workItem from="1784742000396" duration="3376000" />
       <workItem from="1784794770733" duration="575000" />
       <workItem from="1784828192877" duration="4687000" />
+      <workItem from="1784876573670" duration="13000" />
+      <workItem from="1784914718973" duration="3165000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
@@ -450,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784745429684</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cp games 23 july">
+      <option name="closed" value="true" />
+      <created>1784876582233</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1784876582233</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +497,8 @@
     <MESSAGE value="cp games 21 july" />
     <MESSAGE value="random question solved using cdq d&amp;c" />
     <MESSAGE value="cp games 22 july" />
-    <option name="LAST_COMMIT_MESSAGE" value="cp games 22 july" />
+    <MESSAGE value="cp games 23 july" />
+    <option name="LAST_COMMIT_MESSAGE" value="cp games 23 july" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
