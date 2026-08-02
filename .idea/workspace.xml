@@ -28,10 +28,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="cp games 23 july">
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Hidden Knowledge of the Ancients.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Lucky Transformation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Smilo and Monsters.cpp" afterDir="false" />
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="cp games 24 july">
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1113 (Div. 2)/Good Pair Queries.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1113 (Div. 2)/Maximize the Score.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1113 (Div. 2)/Merge to Match.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1113 (Div. 2)/You Delete, I Delete.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +212,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -402,7 +403,13 @@
       <workItem from="1784794770733" duration="575000" />
       <workItem from="1784828192877" duration="4687000" />
       <workItem from="1784876573670" duration="13000" />
-      <workItem from="1784914718973" duration="3165000" />
+      <workItem from="1784914718973" duration="4274000" />
+      <workItem from="1785258301208" duration="569000" />
+      <workItem from="1785318189255" duration="164000" />
+      <workItem from="1785513371420" duration="571000" />
+      <workItem from="1785524145704" duration="535000" />
+      <workItem from="1785594303315" duration="40000" />
+      <workItem from="1785594346175" duration="4965000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
@@ -476,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784876582233</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="cp games 24 july">
+      <option name="closed" value="true" />
+      <created>1784918104559</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1784918104559</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +513,8 @@
     <MESSAGE value="random question solved using cdq d&amp;c" />
     <MESSAGE value="cp games 22 july" />
     <MESSAGE value="cp games 23 july" />
-    <option name="LAST_COMMIT_MESSAGE" value="cp games 23 july" />
+    <MESSAGE value="cp games 24 july" />
+    <option name="LAST_COMMIT_MESSAGE" value="cp games 24 july" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
