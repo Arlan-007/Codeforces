@@ -28,16 +28,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="Codeforces Round 1113">
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1113 (Div. 2)/Excuse for Breaks.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Chronostasis.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Evanescent.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Marenol.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Riptide.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Silhouette.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Whiplash.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Educational Codeforces Round 192 (Rated for Div. 2)/Summer Vacation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/Generate a String.cpp" afterDir="false" />
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="Codeforces Round 1114">
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1115 (Div. 2)/Always Changing.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1115 (Div. 2)/Array Replacement.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1115 (Div. 2)/Boss Fight.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1115 (Div. 2)/Generational Triplets.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1115 (Div. 2)/Risky Tower.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,11 +224,11 @@
       <recent name="$PROJECT_DIR$/900" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Contest/Codeforces Round 1115 (Div. 2)" />
       <recent name="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)" />
       <recent name="$PROJECT_DIR$/Contest/CP Games_2026" />
       <recent name="$PROJECT_DIR$/Non-Contest" />
       <recent name="$PROJECT_DIR$/Contest/Codeforces Round 1089 (Div. 2)" />
-      <recent name="$PROJECT_DIR$/Contest" />
     </key>
   </component>
   <component name="RunManager" selected="C/C++ File.hello.cpp">
@@ -419,6 +415,8 @@
       <workItem from="1785693878508" duration="453000" />
       <workItem from="1785772874485" duration="6410000" />
       <workItem from="1785854158378" duration="5935000" />
+      <workItem from="1786026623290" duration="177000" />
+      <workItem from="1786026867331" duration="6392000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
@@ -508,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785662268465</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Codeforces Round 1114">
+      <option name="closed" value="true" />
+      <created>1786026637601</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1786026637601</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +538,8 @@
     <MESSAGE value="cp games 23 july" />
     <MESSAGE value="cp games 24 july" />
     <MESSAGE value="Codeforces Round 1113" />
-    <option name="LAST_COMMIT_MESSAGE" value="Codeforces Round 1113" />
+    <MESSAGE value="Codeforces Round 1114" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codeforces Round 1114" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
