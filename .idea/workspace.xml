@@ -28,11 +28,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="cp games 24 july">
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1113 (Div. 2)/Good Pair Queries.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1113 (Div. 2)/Maximize the Score.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1113 (Div. 2)/Merge to Match.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1113 (Div. 2)/You Delete, I Delete.cpp" afterDir="false" />
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="Codeforces Round 1113">
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1113 (Div. 2)/Excuse for Breaks.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Chronostasis.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Evanescent.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Marenol.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Riptide.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Silhouette.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)/Whiplash.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Educational Codeforces Round 192 (Rated for Div. 2)/Summer Vacation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/Generate a String.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +217,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -223,6 +228,7 @@
       <recent name="$PROJECT_DIR$/900" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Contest/Codeforces Round 1114 (Div. 3)" />
       <recent name="$PROJECT_DIR$/Contest/CP Games_2026" />
       <recent name="$PROJECT_DIR$/Non-Contest" />
       <recent name="$PROJECT_DIR$/Contest/Codeforces Round 1089 (Div. 2)" />
@@ -409,7 +415,10 @@
       <workItem from="1785513371420" duration="571000" />
       <workItem from="1785524145704" duration="535000" />
       <workItem from="1785594303315" duration="40000" />
-      <workItem from="1785594346175" duration="4965000" />
+      <workItem from="1785594346175" duration="5693000" />
+      <workItem from="1785693878508" duration="453000" />
+      <workItem from="1785772874485" duration="6410000" />
+      <workItem from="1785854158378" duration="5935000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
@@ -491,7 +500,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784918104559</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Codeforces Round 1113">
+      <option name="closed" value="true" />
+      <created>1785662268465</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1785662268465</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +531,8 @@
     <MESSAGE value="cp games 22 july" />
     <MESSAGE value="cp games 23 july" />
     <MESSAGE value="cp games 24 july" />
-    <option name="LAST_COMMIT_MESSAGE" value="cp games 24 july" />
+    <MESSAGE value="Codeforces Round 1113" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codeforces Round 1113" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
