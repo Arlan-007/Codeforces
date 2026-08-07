@@ -48,11 +48,25 @@ int main() {
     cin >> t;
     while (t--) {
         int n; cin >> n;
-        vector<ll> a(n);
+        vector<ll> a(n) , d(n-1);
         for (int i = 0; i < n; i++) cin >> a[i];
+        for (int i = 0; i < n - 1; i++) d[i] = a[i + 1] - a[i];
 
+        int i = 0;
+        auto par = [](ll x) { return ((x % 2) + 2) % 2; };
+        while (i < n-1) {
+            int k = i;
+            while (k < n - 1 && par(d[k]) == par(d[i])) k++;
+            sort (d.begin() + i, d.begin() + k);
+            i = k;
+        }
 
-        for (int i = 0; i < n; i++) cout << a[i] << " ";
+        cout << a[0] << " ";
+        ll cur = a[0];
+        for (int i = 0; i < n-1; i++) {
+            cur += d[i];
+            cout << cur << " ";
+        }
         cout << endl;
     }
 }
