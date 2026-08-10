@@ -28,13 +28,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="Codeforces Round 1114">
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1115 (Div. 2)/Always Changing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1115 (Div. 2)/Array Replacement.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1115 (Div. 2)/Boss Fight.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1115 (Div. 2)/Generational Triplets.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1115 (Div. 2)/Risky Tower.cpp" afterDir="false" />
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="Codeforces Round 1115">
+      <change afterPath="$PROJECT_DIR$/Contest/Educational Codeforces Round 188 (Rated for Div. 2)/Sum of Digits (and Again).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Educational Codeforces Round 193 (Rated for Div. 2)/Sum of Distinct Values in a Matrix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/Stay or Mirror.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +112,7 @@
     <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1076 (Div. 3)/Reverse a Permutation.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1093 (Div. 2)/OIE Excursion.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contest/Codeforces Round 1098 (Div. 2)/Cirno and Number (Easy Version).cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Contest/Educational Codeforces Round 193 (Rated for Div. 2)/Sum of Distinct Values in a Matrix.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="cstg4yMV" />
@@ -417,6 +417,12 @@
       <workItem from="1785854158378" duration="5935000" />
       <workItem from="1786026623290" duration="177000" />
       <workItem from="1786026867331" duration="6392000" />
+      <workItem from="1786094328914" duration="969000" />
+      <workItem from="1786126151212" duration="1260000" />
+      <workItem from="1786127954366" duration="852000" />
+      <workItem from="1786129149402" duration="601000" />
+      <workItem from="1786188483869" duration="4336000" />
+      <workItem from="1786363731937" duration="2704000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
@@ -514,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786026637601</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Codeforces Round 1115">
+      <option name="closed" value="true" />
+      <created>1786095125324</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1786095125324</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +553,8 @@
     <MESSAGE value="cp games 24 july" />
     <MESSAGE value="Codeforces Round 1113" />
     <MESSAGE value="Codeforces Round 1114" />
-    <option name="LAST_COMMIT_MESSAGE" value="Codeforces Round 1114" />
+    <MESSAGE value="Codeforces Round 1115" />
+    <option name="LAST_COMMIT_MESSAGE" value="Codeforces Round 1115" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
