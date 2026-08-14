@@ -30,20 +30,26 @@
 #include <stdexcept>
 
 using namespace std;
-#define ll long long
 
-int main(){
+#pragma GCC optimize("O3")
+#pragma GCC optimize("unroll-loops")
+
+using ll = long long;
+
+const ll INF = (ll) 4e18;
+const ll NEG = -INF;
+const int MOD = 1'000'000'007;
+
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+
     int t = 1;
-    // cin>>t;
-    while(t--) {
+    cin >> t;
+    while (t--) {
         ll n; cin >> n;
-        vector<ll> a(n);
-        for(int i = 0; i < n; i++) cin >> a[i];
-        ll ans = 0;
-        for(int i = 1; i <= n; i++) ans ^= i;
-        for(int i = 0; i < n; i++) ans ^= a[i];
-        cout << ans << "\n";
+        for (ll i = 1; i <= n-2; i++) cout << i << " " << i << "\n";
+        cout << n << " " << n-1 << "\n";
+        cout << n << " " << n << "\n" << endl;
     }
 }

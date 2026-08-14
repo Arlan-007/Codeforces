@@ -29,9 +29,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="Codeforces Round 1115">
-      <change afterPath="$PROJECT_DIR$/Contest/Educational Codeforces Round 188 (Rated for Div. 2)/Sum of Digits (and Again).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Educational Codeforces Round 193 (Rated for Div. 2)/Sum of Distinct Values in a Matrix.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/Stay or Mirror.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Bus Seating.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Fluxus Mystery.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Ingenium Swaps.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Mid-semester attendance sheet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Stars Drawing.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/The Great LHC Mass Bunk Tea.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/Subarray Sorting.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/XOR-factorization.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
     </list>
@@ -231,20 +240,6 @@
       <recent name="$PROJECT_DIR$/Contest/Codeforces Round 1089 (Div. 2)" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.hello.cpp">
-    <configuration name="hello.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Codeforces" TARGET_NAME="hello.cpp" CONFIG_NAME="hello.cpp">
-      <option name="sourceFile" value="900/hello.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hello.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Codeforces" TARGET_NAME="hello.cpp" CONFIG_NAME="hello.cpp">
-      <option name="sourceFile" value="$PROJECT_DIR$/900/hello.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
@@ -423,6 +418,12 @@
       <workItem from="1786129149402" duration="601000" />
       <workItem from="1786188483869" duration="4336000" />
       <workItem from="1786363731937" duration="2704000" />
+      <workItem from="1786382656393" duration="953000" />
+      <workItem from="1786530291887" duration="384000" />
+      <workItem from="1786539000045" duration="298000" />
+      <workItem from="1786550117394" duration="16549000" />
+      <workItem from="1786697749373" duration="1641000" />
+      <workItem from="1786724913295" duration="6620000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />

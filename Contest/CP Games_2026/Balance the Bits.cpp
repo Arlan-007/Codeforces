@@ -1,0 +1,73 @@
+#include <iostream>
+#include <vector>
+#include <array>
+#include <deque>
+#include <list>
+#include <forward_list>
+#include <set>
+#include <map>
+#include <unordered_set>
+#include <unordered_map>
+#include <stack>
+#include <queue>
+#include <algorithm>
+#include <numeric>
+#include <functional>
+#include <utility>
+#include <tuple>
+#include <string>
+#include <cstring>
+#include <sstream>
+#include <cmath>
+#include <complex>
+#include <bitset>
+#include <random>
+#include <limits>
+#include <climits>
+#include <cfloat>
+#include <cassert>
+#include <exception>
+#include <stdexcept>
+
+using namespace std;
+
+#pragma GCC optimize("O3")
+#pragma GCC optimize("unroll-loops")
+
+using ll = long long;
+
+const ll INF = (ll) 4e18;
+const ll NEG = -INF;
+const int MOD = 1'000'000'007;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t = 1;
+    cin >> t;
+    while (t--) {
+        ll n; cin >> n;
+        string s; cin >> s;
+        if (s.front() != '1' || s.back() != '1') {cout << "NO\n"; continue;}
+
+        ll ones = 0;
+        for (char c : s) if (c == '1') ones++;
+        if (ones % 2 == 1) {cout << "NO\n"; continue;}
+
+        cout << "YES\n";
+        string a, b;
+        ll cnt = 0, alt = 0;
+        for (char c : s) {
+            if (c == '1') {
+                if (ones > 2 * cnt) {a += '('; b += '('; cnt++;}
+                else {a += ')'; b += ')';}
+            } else {
+                alt++;
+                if (alt & 1) {a += ')'; b += '(';}
+                else {a += '('; b += ')';}
+            }
+        }
+        cout << a << "\n" << b << "\n";
+    }
+}
