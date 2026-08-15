@@ -28,22 +28,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="Codeforces Round 1115">
-      <change afterPath="$PROJECT_DIR$/Contest/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/.idea/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Bus Seating.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Fluxus Mystery.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Ingenium Swaps.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Mid-semester attendance sheet.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Stars Drawing.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/The Great LHC Mass Bunk Tea.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/Subarray Sorting.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/XOR-factorization.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="CSESA Contest &amp; some extras" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -423,7 +408,8 @@
       <workItem from="1786539000045" duration="298000" />
       <workItem from="1786550117394" duration="16549000" />
       <workItem from="1786697749373" duration="1641000" />
-      <workItem from="1786724913295" duration="6620000" />
+      <workItem from="1786724913295" duration="6743000" />
+      <workItem from="1786731762049" duration="11767000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
@@ -529,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786095125324</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="CSESA Contest &amp; some extras">
+      <option name="closed" value="true" />
+      <created>1786731664872</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1786731664872</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +549,8 @@
     <MESSAGE value="Codeforces Round 1113" />
     <MESSAGE value="Codeforces Round 1114" />
     <MESSAGE value="Codeforces Round 1115" />
-    <option name="LAST_COMMIT_MESSAGE" value="Codeforces Round 1115" />
+    <MESSAGE value="CSESA Contest &amp; some extras" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSESA Contest &amp; some extras" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
