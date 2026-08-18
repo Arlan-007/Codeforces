@@ -56,23 +56,53 @@ int main() {
             }
         }
 
+        vector<vector<int>> lt(n, vector<int>(m)), rt(n, vector<int>(m));
+        vector<vector<int>> up(n, vector<int>(m)), dn(n, vector<int>(m));
+
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                if (i > 0) {if (a[i][j] != '.') up[i][j] = up[i - 1][j] + 1;}
+                else up[i][j] = a[i][j] != '.';
+
+                if (j > 0) {if (a[i][j] != '.') lt[i][j] = lt[i][j - 1] + 1;}
+                else lt[i][j] = a[i][j] != '.';
+            }
+        }
+
+        for (int i = n - 1; i >= 0; --i) {
+            for (int j = m - 1; j >= 0; --j) {
+                if (i < n - 1) {if (a[i][j] != '.') dn[i][j] = dn[i + 1][j] + 1;}
+                else dn[i][j] = a[i][j] != '.';
+
+                if (j < m - 1) {if (a[i][j] != '.') rt[i][j] = rt[i][j + 1] + 1;}
+                else rt[i][j] = a[i][j] != '.';
+            }
+        }
+
         vector<tuple<int,int,int>> ans;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (a[i][j] != '*') continue;
-                int k = 1;
-                while (i-k >= 0 && i+k < n && j-k >= 0 && j+k < m && a[i-k][j]=='*' && a[i+k][j]=='*' && a[i][j-k]=='*' && a[i][j+k]=='*') k++;
-                k--;
-                if (k >= 1) {
-                    ans.push_back({i+1, j+1, k});
-                    for (int d = 0; d <= k; d++) b[i-d][j] = b[i+d][j] = b[i][j-d] = b[i][j+d] = '*';
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                if (a[i][j] == '*') {
+                    int len = min(min(up[i][j], lt[i][j]), min(dn[i][j], rt[i][j])) - 1;
+                    if (len != 0) ans.push_back(make_tuple(i, j, len));
                 }
             }
         }
+        for (auto [r, c, s] : ans) {
+            b[r][c] = '*';
+
+            for (int k = 1; k <= s; k++) {
+                b[r-k][c] = '*';
+                b[r+k][c] = '*';
+                b[r][c-k] = '*';
+                b[r][c+k] = '*';
+            }
+        }
+
         if (b != a) cout << -1 << '\n';
         else {
             cout << ans.size() << '\n';
-            for (auto [r, c, s] : ans) cout << r << ' ' << c << ' ' << s << '\n';
+            for (auto [r, c, s] : ans) cout << r+1 << ' ' << c+1 << ' ' << s << '\n';
         }
     }
 }

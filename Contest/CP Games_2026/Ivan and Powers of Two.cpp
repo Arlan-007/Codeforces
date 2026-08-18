@@ -30,22 +30,38 @@
 #include <stdexcept>
 
 using namespace std;
+
+#pragma GCC optimize("O3")
+#pragma GCC optimize("unroll-loops")
+
 using ll = long long;
 
-int main(){
+const ll INF = (ll) 4e18;
+const ll NEG = -INF;
+const int MOD = 1'000'000'007;
+
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+
     int t = 1;
-    // cin>>t;
-    while(t--) {
-        ll n; cin >> n;
-        ll k = sqrt(n);
-        for (ll i = 1; i <= n; i += k) {
-            ll m = min(i + k - 1, n);
-            for (ll j = m; j >= i; j--) {
-                cout << j << " ";
+    // cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        map<ll,ll> freq;
+        for (int i = 0; i < n; i++) { ll a; cin >> a; freq[a]++; }
+
+        ll maxx = 0, count = 0;
+        while (!freq.empty()) {
+            auto [val, cnt] = *freq.begin();
+
+            freq.erase(freq.begin());
+            if (cnt & 1) {
+                count++;
+                maxx = val;
             }
+            if (cnt / 2) freq[val + 1] += cnt / 2;
         }
-        cout << "\n";
+        cout << maxx - count + 1 << "\n";
     }
 }

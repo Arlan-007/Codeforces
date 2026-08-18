@@ -30,22 +30,42 @@
 #include <stdexcept>
 
 using namespace std;
+
+#pragma GCC optimize("O3")
+#pragma GCC optimize("unroll-loops")
+
 using ll = long long;
 
-int main(){
+const ll INF = (ll) 4e18;
+const ll NEG = -INF;
+const int MOD = 1'000'000'007;
+
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+
     int t = 1;
-    // cin>>t;
-    while(t--) {
-        ll n; cin >> n;
-        ll k = sqrt(n);
-        for (ll i = 1; i <= n; i += k) {
-            ll m = min(i + k - 1, n);
-            for (ll j = m; j >= i; j--) {
-                cout << j << " ";
+    // cin >> t;
+    while (t--) {
+        ll a, b; cin >> a >> b;
+
+        ll n = 0;
+        while ((n+1)*(n+2)/2 <= a+b) n++;
+
+        ll rem = min(a, n*(n+1)/2);
+        vector<ll> day1, day2;
+        for (ll i = n; i >= 1; i--) {
+            if (i <= rem) {
+                day1.push_back(i);
+                rem -= i;
             }
+            else day2.push_back(i);
         }
-        cout << "\n";
+
+        cout << day1.size() << endl;
+        for (ll x : day1) cout << " " << x; cout << "\n";
+        cout << day2.size() << endl;
+        for (ll x : day2) cout << " " << x; cout << "\n";
+
     }
 }
