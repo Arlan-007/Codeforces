@@ -47,23 +47,27 @@ int main() {
     int t = 1;
     cin >> t;
     while (t--) {
-        int n, m; cin >> n;
-        vector<ll> p(n+1 , 0);
-        for (int i = 2; i <= n; i++) cin >> p[i];
-        cin >> m;
-        vector<ll> a(m+1 , 0) , flg(n+1,0) , cam;
-        for (int i = 0; i < m; i++) {cin >> a[i]; flg[a[i]] = 1;}
-
-        for (int i = n; i >= 2; i--) {
-            int par = p[i];
-            if (flg[par] && flg[i]) cam.push_back(i);
-            else flg[par] |= flg[i];
+        int n, m; cin >> n >> m;
+        vector<int> cnt(n), freq(m + 1);
+        for (int i = 0, x; i < m; ++i) {
+            cin >> x;
+            cnt[x - 1]++;
         }
+        for (int x : cnt) freq[x]++;
 
-        cout << cam.size();
-        for (int x : cam) {
-            cout << " " << x;
+        int extra = m, help = 0;
+        int seen[2] = {freq[0], 0};
+        bool found = false;
+
+        for (int T = 0; ; T++) {
+            if (found) break;
+            if (help >= extra) {
+                cout << T << '\n';
+                found = true;
+            }
+            help += seen[1 - T % 2];
+            extra -= n - seen[0] - seen[1];
+            seen[(T + 1) % 2] += freq[T + 1];
         }
-        cout << "\n";
     }
 }

@@ -45,25 +45,18 @@ int main() {
     cin.tie(nullptr);
 
     int t = 1;
-    cin >> t;
+    // cin >> t;
     while (t--) {
-        int n, m; cin >> n;
-        vector<ll> p(n+1 , 0);
-        for (int i = 2; i <= n; i++) cin >> p[i];
-        cin >> m;
-        vector<ll> a(m+1 , 0) , flg(n+1,0) , cam;
-        for (int i = 0; i < m; i++) {cin >> a[i]; flg[a[i]] = 1;}
-
-        for (int i = n; i >= 2; i--) {
-            int par = p[i];
-            if (flg[par] && flg[i]) cam.push_back(i);
-            else flg[par] |= flg[i];
+        int n; cin >> n;
+        vector<ll> s(n+1), dp(n+1);
+        for (int i = 1; i <= n; i++) cin >> s[i];
+        sort(s.begin() + 1 , s.end());
+        for(int l = 2; l <= n; l++){
+            for(int i = 1; i + l <= n + 1; i++){
+                int j = i + l - 1;
+                dp[i] = min(dp[i+1],dp[i]) + s[j] - s[i];
+            }
         }
-
-        cout << cam.size();
-        for (int x : cam) {
-            cout << " " << x;
-        }
-        cout << "\n";
+        cout << dp[1] << endl;
     }
 }

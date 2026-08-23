@@ -28,24 +28,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Cram Time.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Cutting Out.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Ivan and Powers of Two.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/CP Games_2026/Rectangles.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1117 (Div. 2)/Beaver's Jumping Track.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1117 (Div. 2)/Bermuda Rectangle.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1117 (Div. 2)/Busy Beaver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1117 (Div. 2)/Creating Abbreviations.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1117 (Div. 2)/Gigantomachy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1117 (Div. 2)/Spying on the Beaver.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/A Ribbon for Tomorrow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Stars Drawing.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Contest/CSESA Contest 14_08/Stars Drawing.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Non-Contest/Devu and Flowers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Non-Contest/Devu and Flowers.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/basic.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,12 +86,12 @@
     &quot;assignee&quot;: &quot;Arlan-007&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Arlan-007/Codeforces.git",
-    "accountId": "cba00334-f43f-477e-bdbb-218a1316c39b"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Arlan-007/Codeforces.git&quot;,
+    &quot;accountId&quot;: &quot;cba00334-f43f-477e-bdbb-218a1316c39b&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Contest/CP Games_2026/Ehab Is an Odd Person.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Contest/CP Games_2026/Minimize the Permutation.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -226,6 +209,8 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.hideNoCargoProjectNotifications/Volumes/Samsung PSSD T7/Codeforces/Contest/Codeforces Round 1114 (Div. 3)/Silhouette.rs&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -436,6 +421,11 @@
       <workItem from="1786977333606" duration="4401000" />
       <workItem from="1786982548599" duration="2061000" />
       <workItem from="1787056741547" duration="859000" />
+      <workItem from="1787057652057" duration="787000" />
+      <workItem from="1787128631066" duration="15467000" />
+      <workItem from="1787257917754" duration="4000" />
+      <workItem from="1787302993606" duration="1179000" />
+      <workItem from="1787403994662" duration="3054000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
@@ -557,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786814053356</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Contest 1117 and some exrtas">
+      <option name="closed" value="true" />
+      <created>1787057708233</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1787057708233</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +583,8 @@
     <MESSAGE value="Codeforces Round 1115" />
     <MESSAGE value="CSESA Contest &amp; some extras" />
     <MESSAGE value="simpler high rating ones." />
-    <option name="LAST_COMMIT_MESSAGE" value="simpler high rating ones." />
+    <MESSAGE value="Contest 1117 and some exrtas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contest 1117 and some exrtas" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
