@@ -48,19 +48,19 @@ int main() {
     cin >> t;
     while (t--) {
         int n; cin >> n;
-        vector<ll> a(n,0); bool brk =  false;
-        for (int i = 0; i < n-1; i++) cin >> a[i];
+        vector<ll> a(n+1,0); bool brk =  false;
+        for (int i = 1; i <= n; i++) cin >> a[i];
 
-        for (auto& x : a) if (x == n) {
+        for (int i = 1; i < n; i++) if (a[i] == n) {
             cout << 0 << '\n';
             brk = true; break;
         }
 
         if (!brk) {
-            vector<ll> pref(n), suf(n + 2);
+            vector<ll> pref(n + 1), suf(n + 2);
             pref[0] = 1; suf[n] = 1;
-            for (int i = 1; i < n; ++i) pref[i] = pref[i - 1] && a[i] >= a[i - 1];
-            for (int i = n - 1; i >= 1; --i) suf[i] = suf[i + 1] && a[i] >= a[i + 1];
+            for (int i = 1; i < n; i++) pref[i] = pref[i - 1] && a[i] >= a[i - 1];
+            for (int i = n - 1; i > 0; i++) suf[i] = suf[i + 1] && a[i] >= a[i + 1];
 
             ll ans = 0;
             for (int c = 0; c < n; ++c) {
@@ -68,8 +68,8 @@ int main() {
                 if (c > 0 && c < n - 1 && a[c] == a[c + 1]) continue;
 
                 vector<int> l, r;
-                for (int i = 1; i <= c; ++i) l.push_back(a[i]);
-                for (int i = c + 1; i < n; ++i) r.push_back(a[i]);
+                for (int i = 1; i <= c; i++) l.push_back(a[i]);
+                for (int i = c + 1; i < n; i++) r.push_back(a[i]);
                 reverse(r.begin(), r.end());
 
                 vector<ll> vis(n+1,0);
@@ -84,7 +84,7 @@ int main() {
                     else if (l[x] > r[y]) w = r[y++];
                     else {
                         cout << 0 << '\n';
-                        brk = true; break;
+                        goto end;
                     }
 
                     if (!vis[w]) vis[w] = 1;
@@ -94,7 +94,8 @@ int main() {
                 }
                 ans += ways;
             }
-            if (!brk) cout << ans % MOD << '\n';
+            cout << ans % MOD << '\n';
         }
+        end:;
     }
 }
