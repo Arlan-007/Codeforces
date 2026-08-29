@@ -31,7 +31,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="mashup_2" />
+    <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="mashup_2">
+      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/A_AB Insertion.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/Change Schools.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/Coefficient Stair.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/K-Divisible Subarrays.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/Old Maid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/Second Half Sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1118 (Div. 2)/Carrot Chopdown (Easy Version).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1118 (Div. 2)/Carrot Chopdown (Hard Version).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1118 (Div. 2)/Far Cities.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1118 (Div. 2)/Odd Eraser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Non-Contest/Maximum Submatrix 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Non-Contest/Permutation Cuts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Non-Contest/Yet Another Tournament" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,12 +111,6 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -438,7 +447,8 @@
       <workItem from="1787747685165" duration="2273000" />
       <workItem from="1787847205427" duration="721000" />
       <workItem from="1787849137758" duration="56000" />
-      <workItem from="1787909204549" duration="3947000" />
+      <workItem from="1787909204549" duration="7025000" />
+      <workItem from="1788004272500" duration="12479000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />
