@@ -36,17 +36,17 @@ using namespace std;
 
 using ll = long long;
 
-const ll INF = (ll) 4e18;
+const ll INF = (ll)4e18;
 const ll NEG = -INF;
 const int MOD = 1'000'000'007;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
     int t = 1;
     cin >> t;
     while (t--) {
-
     }
 }

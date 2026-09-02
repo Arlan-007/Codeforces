@@ -32,20 +32,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="mashup_2">
-      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/A_AB Insertion.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/Change Schools.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/Coefficient Stair.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/K-Divisible Subarrays.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/Old Maid.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/AtCoder Beginner Contest 473/Second Half Sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1118 (Div. 2)/Carrot Chopdown (Easy Version).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1118 (Div. 2)/Carrot Chopdown (Hard Version).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1118 (Div. 2)/Far Cities.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1118 (Div. 2)/Odd Eraser.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/AquaMoon and Chess.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/Decode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/Distinct Characters Queries.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/Domino Tiles.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/Longest Regular Bracket Sequence.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/Three Numbers on the Blackboard.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-Contest/Watering an Array.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Non-Contest/Maximum Submatrix 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Non-Contest/Permutation Cuts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Non-Contest/Yet Another Tournament" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Non-Contest/Permutation Cuts.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Non-Contest/Permutation Cuts.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Non-Contest/Yura and Deadlines.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Non-Contest/Yura and Deadlines.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,10 +108,6 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -449,6 +442,21 @@
       <workItem from="1787849137758" duration="56000" />
       <workItem from="1787909204549" duration="7025000" />
       <workItem from="1788004272500" duration="12479000" />
+      <workItem from="1788108202936" duration="47000" />
+      <workItem from="1788108256918" duration="4223000" />
+      <workItem from="1788115017455" duration="19000" />
+      <workItem from="1788115039240" duration="446000" />
+      <workItem from="1788184644224" duration="5000" />
+      <workItem from="1788271353335" duration="157000" />
+      <workItem from="1788272147131" duration="6683000" />
+      <workItem from="1788352751022" duration="121000" />
+      <workItem from="1788352874851" duration="71000" />
+      <workItem from="1788352956112" duration="58000" />
+      <workItem from="1788353017633" duration="4000" />
+      <workItem from="1788353030703" duration="3000" />
+      <workItem from="1788353082850" duration="17000" />
+      <workItem from="1788353451315" duration="15000" />
+      <workItem from="1788353525769" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="Educational Codeforces Round 192 done">
       <option name="closed" value="true" />

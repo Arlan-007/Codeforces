@@ -49,7 +49,7 @@ int main() {
     while (t--) {
         int n; cin >> n;
         vector<ll> a(n+1,0); bool brk =  false;
-        for (int i = 1; i <= n; i++) cin >> a[i];
+        for (int i = 1; i < n; i++) cin >> a[i];
 
         for (int i = 1; i < n; i++) if (a[i] == n) {
             cout << 0 << '\n';
@@ -59,8 +59,8 @@ int main() {
         if (!brk) {
             vector<ll> pref(n + 1), suf(n + 2);
             pref[0] = 1; suf[n] = 1;
-            for (int i = 1; i < n; i++) pref[i] = pref[i - 1] && a[i] >= a[i - 1];
-            for (int i = n - 1; i > 0; i++) suf[i] = suf[i + 1] && a[i] >= a[i + 1];
+            for (int i = 1; i <= n; i++) pref[i] = pref[i - 1] && a[i] >= a[i - 1];
+            for (int i = n - 1; i > 0; i--) suf[i] = suf[i + 1] && a[i] >= a[i + 1];
 
             ll ans = 0;
             for (int c = 0; c < n; ++c) {
@@ -94,7 +94,7 @@ int main() {
                 }
                 ans += ways;
             }
-            cout << ans % MOD << '\n';
+            cout << 2 * ans % MOD << '\n';
         }
         end:;
     }

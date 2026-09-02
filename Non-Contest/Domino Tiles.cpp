@@ -47,6 +47,23 @@ int main() {
     int t = 1;
     cin >> t;
     while (t--) {
+        int n; cin >> n;
+        string s; cin >> s;
 
+        int ans = 0;
+        vector<string> valid = {"0011" , "0110" , "1100" , "1001"};
+
+        for (int j = 0; j < 4; j++) {
+            bool pos = true;
+            for (int i = 0; i < n; i++) {
+                if(s[i] != '?' && s[i] != valid[j][i % 4]){
+                    pos = false;
+                    break;
+                }
+            }
+            if(pos) ans++;
+        }
+
+        cout << ans << "\n";
     }
 }

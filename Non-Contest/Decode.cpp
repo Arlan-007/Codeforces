@@ -47,6 +47,14 @@ int main() {
     int t = 1;
     cin >> t;
     while (t--) {
+        string s; cin >> s;
+        int n = s.length();
+        vector<ll> pref(n + 1, 0), cnt(2 * n + 1, 0);
+        for (int i = 0; i < n; i++) pref[i + 1] = pref[i] + (s[i] == '1' ? 1 : -1);
+
+        ll ans = 0;
+        for (int i = 0; i <= n; i++) ans = (ans + (n - i + 1) * cnt[pref[i] + n]) % MOD, cnt[pref[i] + n] = (cnt[pref[i] + n] + (i + 1)) % MOD;
+        cout << ans << endl;
 
     }
 }
