@@ -47,21 +47,5 @@ int main() {
     int t = 1;
     cin >> t;
     while (t--) {
-        int n, k, d; cin >> n >> k >> d;
-        vector<int> a(n), b(k);;
-        for (int i = 0; i < n; i++) cin >> a[i];
-        for (int i = 0; i < k; i++) cin >> b[i];
-
-        int ans = 0;
-        for (int i = 0; i < min(d,2 * n); i++) {
-            int cur = 0;
-            for (int j = 0; j < n; j++) cur += (a[j] == j + 1);
-            cur += (d - i - 1)/2;
-
-            ans  = max(ans, cur);
-
-            for (int j = 0; j < b[i % k]; j++) a[j]++;
-        }
-        cout << ans << endl;
     }
 }

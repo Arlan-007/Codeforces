@@ -1,8 +1,8 @@
 #include <iostream>
+using namespace std;
 
-#pragma GCC optimize("Ofast")
-#pragma GCC optimize("unroll-loops")
-#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx2,tune=native")
+#pragma GCC optimize("Ofast,unroll-loops,inline")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx2,lzcnt,bmi2,bmi,tune=native")
 
 using ll = long long;
 
@@ -14,7 +14,7 @@ const int MAX_PRIME = 100005;
 
 ll fact[MAXN], invFact[MAXN];
 vector<int> primes;
-bool is_prime[MAX_PRIME + 1];
+vector<bool> is_prime(MAX_PRIME + 1, true);
 
 ll modpow(ll a, ll b) {
     ll res = 1;
@@ -49,17 +49,15 @@ ll nCr(int n, int r) {
 }
 
 void build_sieve() {
-    memset(is_prime, true, sizeof(is_prime));
-    is_prime[0] = is_prime[1] = false;
-    for (int p = 2; p * p <= MAX_PRIME; p++) {
-        if (is_prime[p]) {
-            for (int i = p * p; i <= MAX_PRIME; i += p)
-                is_prime[i] = false;
-        }
-    }
-    for (int p = 2; p <= MAX_PRIME; p++) {
-        if (is_prime[p]) primes.push_back(p);
-    }
+    is_prime[0] = false; is_prime[1] = false;
+    for (int i = 3; i * i <= MAX_PRIME; i += 2)
+        if (is_prime[i])
+            for (int j = i * i; j <= MAX_PRIME; j += i * 2)
+                is_prime[j] = false;
+
+    primes.push_back(2);
+    for (int i = 3; i <= MAX_PRIME; i += 2)
+        if (is_prime[i]) primes.push_back(i);
 }
 int main() {
     std::cout << "Basic program 1 \n";

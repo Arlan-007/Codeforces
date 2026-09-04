@@ -44,24 +44,27 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int t = 1;
-    cin >> t;
-    while (t--) {
-        int n, k, d; cin >> n >> k >> d;
-        vector<int> a(n), b(k);;
-        for (int i = 0; i < n; i++) cin >> a[i];
-        for (int i = 0; i < k; i++) cin >> b[i];
+    int n, a, b, k; cin >> n >> a >> b >> k;
+    vector<vector<ll>> dp(k + 1, vector<ll>(n + 1, 0));
+    vector<ll> pref(n + 2, 0);
+    dp[0][a] = 1;
 
-        int ans = 0;
-        for (int i = 0; i < min(d,2 * n); i++) {
-            int cur = 0;
-            for (int j = 0; j < n; j++) cur += (a[j] == j + 1);
-            cur += (d - i - 1)/2;
+    for (int i = 1; i <= k; i++) {
+        for (int j = 1; j <= n; j++) pref[j] = (pref[j - 1] + dp[i - 1][j]) % MOD;
 
-            ans  = max(ans, cur);
+        for (int j = 1; j <= n; j++) {
+            if (j == b) continue;
 
-            for (int j = 0; j < b[i % k]; j++) a[j]++;
+            int left = b > j ? 1 : max(b + 1, (b + j) / 2 + 1);
+            int right = b > j ? min(b - 1, (b + j - 1) / 2) : n;
+
+            ll sum = (pref[right] - pref[left - 1] + MOD) % MOD;
+            sum = (sum - dp[i - 1][j] + MOD) % MOD;
+            dp[i][j] = sum;
         }
-        cout << ans << endl;
     }
+
+    ll ans = 0;
+    for (int i = 1; i <= n; i++) ans += dp[k][i], ans %= MOD;
+    cout << ans << endl;
 }

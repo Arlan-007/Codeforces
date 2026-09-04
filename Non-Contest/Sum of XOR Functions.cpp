@@ -38,30 +38,35 @@ using ll = long long;
 
 const ll INF = (ll) 4e18;
 const ll NEG = -INF;
-const int MOD = 1'000'000'007;
+const int MOD = 998244353;
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int t = 1;
-    cin >> t;
-    while (t--) {
-        int n, k, d; cin >> n >> k >> d;
-        vector<int> a(n), b(k);;
-        for (int i = 0; i < n; i++) cin >> a[i];
-        for (int i = 0; i < k; i++) cin >> b[i];
+    int n; cin >> n;
+    vector<ll> a(n), prefix(n + 1, 0);;
+    for (int i = 0; i < n; i++) prefix[i + 1] = prefix[i] ^ (cin >> a[i], a[i]);
 
-        int ans = 0;
-        for (int i = 0; i < min(d,2 * n); i++) {
-            int cur = 0;
-            for (int j = 0; j < n; j++) cur += (a[j] == j + 1);
-            cur += (d - i - 1)/2;
+    ll ans = 0;
+    for (int bit = 0; bit < 30; bit++) {
+        ll count[2] = {1, 0};
+        ll sum[2] = {0, 0};
 
-            ans  = max(ans, cur);
+        for (int r = 1; r <= n; r++) {
+            int val = (prefix[r] >> bit) & 1;
+            int opp = 1 - val;
 
-            for (int j = 0; j < b[i % k]; j++) a[j]++;
+            ll cnt = count[opp];
+            ll sum_idx = sum[opp];
+
+            ll cont = ((cnt * r % MOD) - sum_idx % MOD + MOD) % MOD;
+            ll value = (1LL << bit) % MOD;
+            ans = (ans + cont * value % MOD) % MOD;
+
+            count[val]++;
+            sum[val] = (sum[val] + r) % MOD;
         }
-        cout << ans << endl;
     }
+    cout << ans << "\n";
 }

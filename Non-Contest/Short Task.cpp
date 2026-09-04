@@ -39,6 +39,32 @@ using ll = long long;
 const ll INF = (ll) 4e18;
 const ll NEG = -INF;
 const int MOD = 1'000'000'007;
+const int MAX_PRIME = 100005;
+const int MAXN = 10'000'007;
+
+vector<int> primes, sum(MAXN, 0), ans(MAXN, -1);
+bitset<MAX_PRIME + 1> is_prime;
+
+void build_sieve() {
+    is_prime.set();
+    is_prime[0] = false; is_prime[1] = false;
+
+    for (int i = 3; i * i <= MAX_PRIME; i += 2)
+        if (is_prime[i])
+            for (int j = i * i; j <= MAX_PRIME; j += i * 2)
+                is_prime[j] = false;
+
+    primes.push_back(2);
+    for (int i = 3; i <= MAX_PRIME; i += 2)
+        if (is_prime[i]) primes.push_back(i);
+
+    for (int i = 1; i < MAXN; i++)
+        for (int j = i; j < MAXN; j += i)
+            sum[j] += i;;
+
+    for (int i = MAXN - 1; i >= 1; i--)
+        if (sum[i] < MAXN) ans[sum[i]] = i;
+}
 
 int main() {
     ios::sync_with_stdio(false);
@@ -46,22 +72,9 @@ int main() {
 
     int t = 1;
     cin >> t;
+    build_sieve();
     while (t--) {
-        int n, k, d; cin >> n >> k >> d;
-        vector<int> a(n), b(k);;
-        for (int i = 0; i < n; i++) cin >> a[i];
-        for (int i = 0; i < k; i++) cin >> b[i];
-
-        int ans = 0;
-        for (int i = 0; i < min(d,2 * n); i++) {
-            int cur = 0;
-            for (int j = 0; j < n; j++) cur += (a[j] == j + 1);
-            cur += (d - i - 1)/2;
-
-            ans  = max(ans, cur);
-
-            for (int j = 0; j < b[i % k]; j++) a[j]++;
-        }
-        cout << ans << endl;
+        ll c; cin >> c;
+        cout << ans[c] << "\n";
     }
 }

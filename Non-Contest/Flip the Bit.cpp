@@ -47,21 +47,23 @@ int main() {
     int t = 1;
     cin >> t;
     while (t--) {
-        int n, k, d; cin >> n >> k >> d;
-        vector<int> a(n), b(k);;
-        for (int i = 0; i < n; i++) cin >> a[i];
-        for (int i = 0; i < k; i++) cin >> b[i];
+        int n, k; cin >> n >> k;
+        vector<int> a(n + 2), pivots(k + 2);;
+        for (int i = 1; i <= n; i++) cin >> a[i];
+        for (int i = 1; i <= k; i++) cin >> pivots[i];
 
-        int ans = 0;
-        for (int i = 0; i < min(d,2 * n); i++) {
-            int cur = 0;
-            for (int j = 0; j < n; j++) cur += (a[j] == j + 1);
-            cur += (d - i - 1)/2;
+        a[0] = a[n+1] = a[pivots[1]];
+        pivots[k+1] = n+1;
 
-            ans  = max(ans, cur);
-
-            for (int j = 0; j < b[i % k]; j++) a[j]++;
+        int A = 0, B = 0;
+        for (int i = 0; i <= k; i++) {
+            int cnt = 0;
+            for (int j = pivots[i]; j < pivots[i+1]; j++)
+                if (a[j] != a[j+1]) cnt++;
+            A += cnt;
+            B = max(B, cnt);
         }
-        cout << ans << endl;
+        
+        cout << max(A / 2, B) << "\n";
     }
 }

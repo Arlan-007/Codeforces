@@ -47,20 +47,23 @@ int main() {
     int t = 1;
     cin >> t;
     while (t--) {
-        int n, k, d; cin >> n >> k >> d;
-        vector<int> a(n), b(k);;
+        int n, k; cin >> n >> k;
+        vector<ll> a(n), b(n);
         for (int i = 0; i < n; i++) cin >> a[i];
-        for (int i = 0; i < k; i++) cin >> b[i];
+        for (int i = 0; i < n; i++) cin >> b[i];
+        sort(a.begin(), a.end());
+        sort(b.begin(), b.end());
 
-        int ans = 0;
-        for (int i = 0; i < min(d,2 * n); i++) {
-            int cur = 0;
-            for (int j = 0; j < n; j++) cur += (a[j] == j + 1);
-            cur += (d - i - 1)/2;
+        set<ll> pr;
+        pr.insert(0); pr.insert(b[n-1] + 1);
+        for (int i = 0; i < n; i++) pr.insert(a[i]), pr.insert(b[i]);
 
-            ans  = max(ans, cur);
-
-            for (int j = 0; j < b[i % k]; j++) a[j]++;
+        ll ans = 0;
+        for (ll i : pr) {
+            ll pos = n - (lower_bound(a.begin(), a.end(), i) - a.begin());
+            ll neg = n - (lower_bound(b.begin(), b.end(), i) - b.begin()) - pos;
+            if (neg > k) continue;
+            ans = max(ans, i * (pos + neg));
         }
         cout << ans << endl;
     }
