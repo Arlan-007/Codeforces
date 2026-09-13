@@ -47,23 +47,27 @@ int main() {
     int t = 1;
     cin >> t;
     while (t--) {
-        int n, k; cin >> n >> k;
-        vector<int> a(n);
-        vector<vector<int>> dp(n + 1, vector<int>(64));
-        for (auto &x : a) cin >> x;
+        int n; cin >> n;
+        if (n == 1) {cout << "1" << "\n"; continue;}
+        if (n == 2) {cout << "11" << "\n"; continue;}
 
-        for (int i = 1; i <= n; i++) {
-            for(int m = 0; m < 64; m++) {
-                dp[i][m] = (dp[i][m] + dp[i - 1][m]) % MOD;
-                dp[i][m & a[i - 1]] = (dp[i][m & a[i - 1]] + dp[i - 1][m]) % MOD;
-            }
-            dp[i][a[i - 1]] = (dp[i][a[i - 1]] + 1) % MOD;
+        int q = (n + 1) / 3, r = (n + 1) % 3;
+        int a = q, b = q, c = q;
+        string kedar(n, '0');
+
+        if (r == 0 && q % 2 == 1) {
+            kedar[q - 1] = '1';
+            kedar[q + 1] = '1';
+            kedar[2 * q + 1] = '1';
         }
+        else {
+            int a = q, b = q;
+            if (q % 2 == 0) a++;
+            else b++;
 
-        int ans = 0;
-        for(int m = 0; m < 64; m++)
-            if (__builtin_popcount(m) == k) ans = (ans + dp[n][m]) % MOD;
-
-        cout << ans << "\n";
+            kedar[a - 1] = '1';
+            kedar[a + b - 1] = '1';
+        }
+        cout << kedar << '\n';
     }
 }

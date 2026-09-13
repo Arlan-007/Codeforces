@@ -47,23 +47,21 @@ int main() {
     int t = 1;
     cin >> t;
     while (t--) {
-        int n, k; cin >> n >> k;
-        vector<int> a(n);
-        vector<vector<int>> dp(n + 1, vector<int>(64));
-        for (auto &x : a) cin >> x;
+        int n; cin >> n;
+        vector<int> p(n + 1);
+        for (int i = 1; i <= n; i++) cin >> p[i];
 
-        for (int i = 1; i <= n; i++) {
-            for(int m = 0; m < 64; m++) {
-                dp[i][m] = (dp[i][m] + dp[i - 1][m]) % MOD;
-                dp[i][m & a[i - 1]] = (dp[i][m & a[i - 1]] + dp[i - 1][m]) % MOD;
+        vector<int> vier;
+        for (int i = 1; i <= n; i++)
+            if (p[i] != i) vier.push_back(i);
+
+        bool ok = true;
+        for (int j = 0; j < vier.size(); j++)
+            if (p[vier[j]] != vier[vier.size() - 1 - j]) {
+                ok = false;
+                break;
             }
-            dp[i][a[i - 1]] = (dp[i][a[i - 1]] + 1) % MOD;
-        }
 
-        int ans = 0;
-        for(int m = 0; m < 64; m++)
-            if (__builtin_popcount(m) == k) ans = (ans + dp[n][m]) % MOD;
-
-        cout << ans << "\n";
+        cout << (ok ? "YES\n" : "NO\n");
     }
 }

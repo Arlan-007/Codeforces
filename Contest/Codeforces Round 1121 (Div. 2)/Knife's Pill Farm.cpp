@@ -47,23 +47,24 @@ int main() {
     int t = 1;
     cin >> t;
     while (t--) {
-        int n, k; cin >> n >> k;
+        int n, m; cin >> n >> m;
         vector<int> a(n);
-        vector<vector<int>> dp(n + 1, vector<int>(64));
-        for (auto &x : a) cin >> x;
+        for (int i = 0; i < n; i++) cin >> a[i];
 
-        for (int i = 1; i <= n; i++) {
-            for(int m = 0; m < 64; m++) {
-                dp[i][m] = (dp[i][m] + dp[i - 1][m]) % MOD;
-                dp[i][m & a[i - 1]] = (dp[i][m & a[i - 1]] + dp[i - 1][m]) % MOD;
+        priority_queue<int> pq;
+        ll sum = 0, ans = LLONG_MIN;
+        for (int i = 0; i < n; i++) {
+            if (pq.size() == m - 1) ans = max(ans, 1LL * m * a[i] - sum);
+
+            pq.push(a[i]);
+            sum += a[i];
+
+            if (pq.size() > m - 1) {
+                sum -= pq.top();
+                pq.pop();
             }
-            dp[i][a[i - 1]] = (dp[i][a[i - 1]] + 1) % MOD;
         }
 
-        int ans = 0;
-        for(int m = 0; m < 64; m++)
-            if (__builtin_popcount(m) == k) ans = (ans + dp[n][m]) % MOD;
-
-        cout << ans << "\n";
+        cout << ans << '\n';
     }
 }
