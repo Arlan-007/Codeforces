@@ -30,7 +30,15 @@
 #include <stdexcept>
 
 using namespace std;
+
+#pragma GCC optimize("O3")
+#pragma GCC optimize("unroll-loops")
+
 using ll = long long;
+
+const ll INF = (ll) 4e18;
+const ll NEG = -INF;
+const int MOD = 1'000'000'007;
 
 int main() {
     ios::sync_with_stdio(false);
@@ -39,35 +47,30 @@ int main() {
     int t = 1;
     cin >> t;
     while (t--) {
-        int n, q; cin >> n >> q;
+        ll n, k; cin >> n >> k;
         vector<ll> a(n);
         for (auto &x : a) cin >> x;
 
-        int B = sqrt(n) + 1; int nb = (n + B - 1) / B;
-        vector<ll> sum(nb, 0);
-        for (int i = 0; i < n; i++) sum[i / B] += a[i];
+        vector<ll> c(n), pref(n + 1, 0);;
+        for (int i = 0; i < n; i++) c[i] = a[i] - 1LL * i * k, pref[i + 1] = pref[i] + c[i];
 
-        while (q--) {
-            int ty; cin >> ty;
-            if (ty == 1) {
-                ll x, d, l, r; cin >> x >> d >> l >> r; l--; r--;
+        for (int i = 0; i < n; i++) {
+            if (i == 0 || i == n - 1) {
+                cout << 0 << " ";
+            } else {
+                ll need = c[i - 1] - k;
+                int l = i + 1, r = n;
 
-                for (int i = l; i <= r; i++) {
-                    ll add = x + 1LL * (i - l) * d;
-                    a[i] += add;
-                    sum[i / B] += add;
+                while (l < r) {
+                    int mid = l + (r - l) / 2;
+                    if (c[mid] > need) l = mid + 1;
+                    else r = mid;
                 }
-            }
-            else {
-                int l, r; cin >> l >> r; l--; r--;
-                ll ans = 0;
 
-                while (l <= r && l % B != 0) ans += a[l++];
-                while (l + B - 1 <= r) ans += sum[l / B], l += B;
-                while (l <= r) ans += a[l++];
-
-                cout << ans << '\n';
+                ll cnt = l - (i + 1);
+                cout << (pref[l] - pref[i + 1]) - cnt * need << " ";
             }
         }
+        cout << '\n';
     }
 }
