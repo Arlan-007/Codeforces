@@ -43,36 +43,22 @@ const int MOD = 1'000'000'007;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    int t = 1;
+
+    int t;
     cin >> t;
     while (t--) {
-        int n; cin >> n;
-        if (n == 1) {cout << "1" << "\n"; continue;}
-        if (n == 2) {cout << "11" << "\n"; continue;}
+        int n, k; cin >> n >> k;
+        string s, t; cin >> s; t = s;
+        for (int i = 0; i < 2 * n; i++)
+            if (s[i] == '1' && s[(i + 1) % (2 * n)] == '0') t[i] = '0', t[(i + 1) % (2 * n)] = '1';
 
-        int q = (n + 1) / 3, r = (n + 1) % 3;
-        int a = q, b = q, c = q;
-        string kedar(n, '0');
-
-        if (r == 0 && q % 2 == 1) {
-            kedar[q - 1] = '1';
-            kedar[q + 1] = '1';
-            kedar[2 * q + 1] = '1';
+        int a = 0, b = 0;
+        for (int i = 0; i < n; ++i) {
+            a += t[2 * i + 1] == '1';
+            b += t[2 * i] == '1';
         }
-        else {
-            if (r == 1) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-            else if (r == 2) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-
-            kedar[a - 1] = '1';
-            kedar[a + b - 1] = '1';
-        }
-        cout << kedar << '\n';
+        cout << a << ' ' << b << '\n';
     }
 }

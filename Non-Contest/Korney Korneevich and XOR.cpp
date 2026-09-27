@@ -37,42 +37,43 @@ using namespace std;
 using ll = long long;
 
 const ll INF = (ll) 4e18;
+const int inf = 1e9;
 const ll NEG = -INF;
 const int MOD = 1'000'000'007;
+
+const int N = 8192;
+const int M = 5001;
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    int t = 1;
-    cin >> t;
-    while (t--) {
-        int n; cin >> n;
-        if (n == 1) {cout << "1" << "\n"; continue;}
-        if (n == 2) {cout << "11" << "\n"; continue;}
+    int n; cin >> n;
+    vector<int> a(n), v[M];
 
-        int q = (n + 1) / 3, r = (n + 1) % 3;
-        int a = q, b = q, c = q;
-        string kedar(n, '0');
-
-        if (r == 0 && q % 2 == 1) {
-            kedar[q - 1] = '1';
-            kedar[q + 1] = '1';
-            kedar[2 * q + 1] = '1';
-        }
-        else {
-            if (r == 1) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-            else if (r == 2) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-
-            kedar[a - 1] = '1';
-            kedar[a + b - 1] = '1';
-        }
-        cout << kedar << '\n';
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+        v[a[i]].push_back(i);
     }
+
+    vector<int> dp(N, inf);
+    dp[0] = 0;
+    for (int i = 1; i < M; i++) {
+        if (v[i].size() == 0) continue;
+        for (int j = 1; j < N; j++) {
+            if (dp[j ^ i] != inf) {
+                int x = dp[(j ^ i)];
+                int c = lower_bound(v[i].begin(), v[i].end(), x) - v[i].begin();
+                if (c < v[i].size()) dp[j] = min(dp[j],v[i][c]);
+            }
+        }
+    }
+
+    int ans = 0;
+    for (int i : dp) ans += (i != inf);
+
+    cout << ans << "\n";
+    for (int i = 0; i < N; i++) if (dp[i] != inf) cout << i << " ";
+    cout << "\n";
 }

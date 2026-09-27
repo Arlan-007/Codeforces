@@ -40,39 +40,27 @@ const ll INF = (ll) 4e18;
 const ll NEG = -INF;
 const int MOD = 1'000'000'007;
 
+bool qadar(const vector<int>& a, const vector<int>& b, int mask) {
+    unordered_map<int, int> freq;
+    for (int x : a) freq[x & mask]++;
+    for (int x : b) freq[~x & mask]--;
+    for (auto [_, cnt] : freq) if (cnt) return false;
+    return true;
+}
+
 int main() {
     ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    cin.tie(nullptr); cout.tie(nullptr);
 
-    int t = 1;
-    cin >> t;
+    int t; cin >> t;
     while (t--) {
         int n; cin >> n;
-        if (n == 1) {cout << "1" << "\n"; continue;}
-        if (n == 2) {cout << "11" << "\n"; continue;}
+        vector<int> a(n), b(n);
+        for (int i = 0; i < n; i++) cin >> a[i];
+        for (int i = 0; i < n; i++) cin >> b[i];
 
-        int q = (n + 1) / 3, r = (n + 1) % 3;
-        int a = q, b = q, c = q;
-        string kedar(n, '0');
-
-        if (r == 0 && q % 2 == 1) {
-            kedar[q - 1] = '1';
-            kedar[q + 1] = '1';
-            kedar[2 * q + 1] = '1';
-        }
-        else {
-            if (r == 1) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-            else if (r == 2) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-
-            kedar[a - 1] = '1';
-            kedar[a + b - 1] = '1';
-        }
-        cout << kedar << '\n';
+        int ans = 0;
+        for (int bit = 30; bit >= 0; bit--) if (qadar(a, b, ans | (1 << bit))) ans |= 1 << bit;
+        cout << ans << '\n';
     }
 }

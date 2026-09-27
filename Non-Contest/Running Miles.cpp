@@ -48,31 +48,19 @@ int main() {
     cin >> t;
     while (t--) {
         int n; cin >> n;
-        if (n == 1) {cout << "1" << "\n"; continue;}
-        if (n == 2) {cout << "11" << "\n"; continue;}
-
-        int q = (n + 1) / 3, r = (n + 1) % 3;
-        int a = q, b = q, c = q;
-        string kedar(n, '0');
-
-        if (r == 0 && q % 2 == 1) {
-            kedar[q - 1] = '1';
-            kedar[q + 1] = '1';
-            kedar[2 * q + 1] = '1';
+        vector <ll> a(n);
+        for (int i = 0; i < n; i++) cin >> a[i];
+        vector <vector <ll>> dp(n, vector <ll> (3, NEG));
+        dp[0][0] = a[0];
+        ll bhatia = dp[0][0], vier = NEG, bianca = NEG;
+        for (int i = 1; i < n; ++i) {
+            dp[i][0] = a[i] + i;
+            dp[i][1] = bhatia + a[i];
+            dp[i][2] = vier + a[i] - i;
+            bhatia = max(bhatia, dp[i][0]);
+            vier = max(vier, dp[i][1]);
+            bianca = max(bianca, dp[i][2]);
         }
-        else {
-            if (r == 1) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-            else if (r == 2) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-
-            kedar[a - 1] = '1';
-            kedar[a + b - 1] = '1';
-        }
-        cout << kedar << '\n';
+        cout << bianca << '\n';
     }
 }

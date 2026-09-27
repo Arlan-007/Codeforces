@@ -1,0 +1,82 @@
+#include <iostream>
+#include <vector>
+#include <array>
+#include <deque>
+#include <list>
+#include <forward_list>
+#include <set>
+#include <map>
+#include <unordered_set>
+#include <unordered_map>
+#include <stack>
+#include <queue>
+#include <algorithm>
+#include <numeric>
+#include <functional>
+#include <utility>
+#include <tuple>
+#include <string>
+#include <cstring>
+#include <sstream>
+#include <cmath>
+#include <complex>
+#include <bitset>
+#include <random>
+#include <limits>
+#include <climits>
+#include <cfloat>
+#include <cassert>
+#include <exception>
+#include <stdexcept>
+
+using namespace std;
+
+#pragma GCC optimize("O3")
+#pragma GCC optimize("unroll-loops")
+
+using ll = long long;
+
+const ll INF = (ll) 4e18;
+const ll NEG = -INF;
+const int MOD = 1'000'000'007;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+
+    int t;
+    cin >> t;
+    while (t--) {
+        ll n, mx = 0; cin >> n;
+        vector<pair<ll,ll>> a(n);
+        for (auto& [x, y] : a) {
+            cin >> x >> y;
+            mx = max(mx, x);
+        }
+        sort(a.rbegin(), a.rend());
+        if (a.back().first) {a.push_back({0,0});}
+
+        auto check = [&](ll mid) {
+            ll binaca = 1, excess = 0, step = mid;
+            for (auto& [val, cnt] : a) {
+                ll shift = step - val - 1;
+                if (shift + (63 - __builtin_clzll(binaca + 1)) > 60) return false;
+                binaca <<= shift, step = val;
+
+                if (!val) {excess += cnt; break;}
+                if (cnt > binaca) excess += cnt - binaca;
+                else binaca = (binaca << 1) - cnt;
+            }
+            return excess >= binaca;
+        };
+
+        ll lo = mx, hi = INF;
+        while (lo < hi) {
+            ll mid = lo + (hi - lo + 1) / 2;
+            if (check(mid)) lo = mid;
+            else hi = mid - 1;
+        }
+        cout << lo << "\n";
+    }
+}

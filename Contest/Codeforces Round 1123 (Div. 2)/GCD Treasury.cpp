@@ -38,45 +38,49 @@ using ll = long long;
 
 const ll INF = (ll) 4e18;
 const ll NEG = -INF;
-const int MOD = 998244353;
+const int MOD = 1'000'000'007;
+const int MAXN = 300005;
+const int MAX_PRIME = 300005;
 
-const int N = 3000;
-vector<int> sqfree(N + 1, 1);
-vector<vector<int>> dp(N + 1, vector<int>(N + 1));
+vector<int> primes;
+vector<bool> is_prime(MAX_PRIME + 1, true);
 
-void precompute() {
-    for (int p = 2; p <= N; p++)
-        if (sqfree[p] == 1)
-            for (int j = p; j <= N; j += p)
-                sqfree[j] *= p;
+void build_sieve() {
+    is_prime[0] = false; is_prime[1] = false;
+    for (int i = 3; i * i <= MAX_PRIME; i += 2)
+        if (is_prime[i])
+            for (int j = i * i; j <= MAX_PRIME; j += i * 2)
+                is_prime[j] = false;
 
-    for (int i = 1; i <= N; i++) {
-        int v = i;
-        for (int j = i; j <= N; j++) {
-            if (i % sqfree[j] == 0) v = j;
-            dp[i][j] = v == i ? i : dp[i - 1][v - 1];
-        }
-    }
+    primes.push_back(2);
+    for (int i = 3; i <= MAX_PRIME; i += 2)
+        if (is_prime[i]) primes.push_back(i);
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    int t = 1;
+    int t;
     cin >> t;
-    precompute();
+    build_sieve();
     while (t--) {
-        int n; cin >> n;
+        int n, x; cin >> n >> x;
         vector<int> a(n);
         for (int i = 0; i < n; i++) cin >> a[i];
-        sort(a.begin(), a.end());
 
         ll ans = 0;
-        for (int i = 0; i < n; i++) {
-            ans = (ans + a[i]) % MOD;
-            for (ll j = i + 1, p = 1; j < n;p = (p * 2) % MOD, j++) ans = (ans + p * dp[a[i]][a[j]] % MOD) % MOD;
+        for (int d :primes) {
+            if (d > x) break;
+            if (x % d) continue;
+
+            ll sum = 0;
+            for (int v : a) sum += v % d ? 0 : v;
+            ans = max(ans, sum);
         }
+        ll sum = 0;
+        for (int v : a) sum += v % x ? 0 : v;
         cout << ans << '\n';
     }
 }

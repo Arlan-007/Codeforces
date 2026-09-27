@@ -43,36 +43,23 @@ const int MOD = 1'000'000'007;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    int t = 1;
-    cin >> t;
-    while (t--) {
-        int n; cin >> n;
-        if (n == 1) {cout << "1" << "\n"; continue;}
-        if (n == 2) {cout << "11" << "\n"; continue;}
+    int q; cin >> q;
+    string s, t; cin >> s >> t;
+    int n = s.size(), m = t.size();
 
-        int q = (n + 1) / 3, r = (n + 1) % 3;
-        int a = q, b = q, c = q;
-        string kedar(n, '0');
+    vector<int> pos;
+    for (int i = 0; i + m <= n; i++) {
+        bool ok = true;
+        for (int j = 0; j < m; j++) if (s[i + j] != t[j]) {ok = false; break;}
+        if (ok) pos.push_back(i + 1);
+    }
 
-        if (r == 0 && q % 2 == 1) {
-            kedar[q - 1] = '1';
-            kedar[q + 1] = '1';
-            kedar[2 * q + 1] = '1';
-        }
-        else {
-            if (r == 1) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-            else if (r == 2) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-
-            kedar[a - 1] = '1';
-            kedar[a + b - 1] = '1';
-        }
-        cout << kedar << '\n';
+    while (q--) {
+        int l, r; cin >> l >> r;
+        auto it = lower_bound(pos.begin(), pos.end(), l);
+        if (it != pos.end() && *it <= r - m + 1) cout << "Yes" << "\n";
+        else cout << "No" << "\n";
     }
 }

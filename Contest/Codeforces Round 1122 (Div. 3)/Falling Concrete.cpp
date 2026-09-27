@@ -43,36 +43,26 @@ const int MOD = 1'000'000'007;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    int t = 1;
+    int t;
     cin >> t;
     while (t--) {
         int n; cin >> n;
-        if (n == 1) {cout << "1" << "\n"; continue;}
-        if (n == 2) {cout << "11" << "\n"; continue;}
-
-        int q = (n + 1) / 3, r = (n + 1) % 3;
-        int a = q, b = q, c = q;
-        string kedar(n, '0');
-
-        if (r == 0 && q % 2 == 1) {
-            kedar[q - 1] = '1';
-            kedar[q + 1] = '1';
-            kedar[2 * q + 1] = '1';
+        set<ll> s;
+        for (int i = 1; i <= n; ++i) {
+            ll a; cin >> a;
+            s.insert(a - i);
         }
-        else {
-            if (r == 1) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-            else if (r == 2) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
 
-            kedar[a - 1] = '1';
-            kedar[a + b - 1] = '1';
+        ll binaca = 1;
+        for (ll x : s) {
+            if (!s.count(x - 1)) {
+                ll len = 1, cur = x;
+                while (s.count(cur + 1)) len++, cur++;
+                binaca = max(binaca, len);
+            }
         }
-        cout << kedar << '\n';
+        cout << binaca << '\n';
     }
 }

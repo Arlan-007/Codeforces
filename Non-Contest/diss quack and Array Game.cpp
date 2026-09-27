@@ -43,36 +43,32 @@ const int MOD = 1'000'000'007;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    int t = 1;
+    int t;
     cin >> t;
     while (t--) {
         int n; cin >> n;
-        if (n == 1) {cout << "1" << "\n"; continue;}
-        if (n == 2) {cout << "11" << "\n"; continue;}
+        vector<int> a(n);
+        for (int &x : a) cin >> x;
 
-        int q = (n + 1) / 3, r = (n + 1) % 3;
-        int a = q, b = q, c = q;
-        string kedar(n, '0');
+        ll ans = INF;
+        for (int k = 0; k <= 17; k++) {
+            int pw = 1 << k;
+            ll cur = k;
 
-        if (r == 0 && q % 2 == 1) {
-            kedar[q - 1] = '1';
-            kedar[q + 1] = '1';
-            kedar[2 * q + 1] = '1';
-        }
-        else {
-            if (r == 1) {
-                if (q % 2 == 0) a++;
-                else b++;
+            for (int x : a) {
+                int b = ((x + pw - 1) / pw) * pw;
+
+                ll best = INF;
+                for (int y = b; y <= b + 32; y += pw) {
+                    ll cost = y - x + __builtin_popcount(y) + (32 - __builtin_clz(y)) - k - 1;
+                    best = min(best, cost);
+                }
+                cur += best;
             }
-            else if (r == 2) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-
-            kedar[a - 1] = '1';
-            kedar[a + b - 1] = '1';
+            ans = min(ans, cur);
         }
-        cout << kedar << '\n';
+        cout << ans << '\n';
     }
 }

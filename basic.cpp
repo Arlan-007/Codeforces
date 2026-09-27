@@ -10,7 +10,7 @@ const ll INF = (ll) 4e18;
 const ll NEG = -INF;
 const int MOD = 1'000'000'007;
 const int MAXN = 200005;
-const int MAX_PRIME = 100005;
+const int MAX_PRIME = MAXN;
 
 ll fact[MAXN], invFact[MAXN];
 vector<int> primes;

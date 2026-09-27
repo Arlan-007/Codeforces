@@ -43,36 +43,25 @@ const int MOD = 1'000'000'007;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    int t = 1;
-    cin >> t;
-    while (t--) {
-        int n; cin >> n;
-        if (n == 1) {cout << "1" << "\n"; continue;}
-        if (n == 2) {cout << "11" << "\n"; continue;}
+    int n, d; cin >> n >> d;
+    vector<int> a(n), ans;
+    for (int i = 0; i < n; i++) cin >> a[i];
 
-        int q = (n + 1) / 3, r = (n + 1) % 3;
-        int a = q, b = q, c = q;
-        string kedar(n, '0');
-
-        if (r == 0 && q % 2 == 1) {
-            kedar[q - 1] = '1';
-            kedar[q + 1] = '1';
-            kedar[2 * q + 1] = '1';
-        }
-        else {
-            if (r == 1) {
-                if (q % 2 == 0) a++;
-                else b++;
+    for (int i = 0; i < n; i++) {
+        bool flg = true;
+        for (int j = 0; j < n; j++) {
+            if (i == j) continue;
+            if (abs(a[i] - a[j]) < d) {
+                flg = false;
+                break;
             }
-            else if (r == 2) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-
-            kedar[a - 1] = '1';
-            kedar[a + b - 1] = '1';
         }
-        cout << kedar << '\n';
+
+        if (flg) ans.push_back(i + 1);
     }
+
+    cout << ans.size() << endl;
+    for (int i = 0; i < ans.size(); i++) cout << ans[i] << ' ';
 }

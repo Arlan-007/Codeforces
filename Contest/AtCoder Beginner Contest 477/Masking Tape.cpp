@@ -43,36 +43,38 @@ const int MOD = 1'000'000'007;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    int t = 1;
-    cin >> t;
-    while (t--) {
-        int n; cin >> n;
-        if (n == 1) {cout << "1" << "\n"; continue;}
-        if (n == 2) {cout << "11" << "\n"; continue;}
+    int n, q; cin >> n >> q;
+    vector<bool> tile(n + 1, false);
+    vector<char> col(n + 1, 'a');
+    vector<int> vis(n + 1, 0);
+    char C = 'a';
+    int v = 0;
 
-        int q = (n + 1) / 3, r = (n + 1) % 3;
-        int a = q, b = q, c = q;
-        string kedar(n, '0');
-
-        if (r == 0 && q % 2 == 1) {
-            kedar[q - 1] = '1';
-            kedar[q + 1] = '1';
-            kedar[2 * q + 1] = '1';
+    while (q--) {
+        int ty; cin >> ty;
+        if (ty == 1) {
+            int x; cin >> x;
+            if (!tile[x]) {
+                if (vis[x] != v) {
+                    col[x] = C;
+                    vis[x] = v;
+                }
+                tile[x] = true;
+            } else {
+                tile[x] = false;
+                vis[x] = v;
+            }
         }
         else {
-            if (r == 1) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-            else if (r == 2) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-
-            kedar[a - 1] = '1';
-            kedar[a + b - 1] = '1';
+            cin >> C, v++;
         }
-        cout << kedar << '\n';
     }
+
+    for (int x = 1; x <= n; ++x) {
+        if (tile[x]) cout << col[x];
+        else cout << (vis[x] == v ? col[x] : C);
+    }
+    cout << '\n';
 }

@@ -48,31 +48,27 @@ int main() {
     cin >> t;
     while (t--) {
         int n; cin >> n;
-        if (n == 1) {cout << "1" << "\n"; continue;}
-        if (n == 2) {cout << "11" << "\n"; continue;}
+        string s; cin >> s;
 
-        int q = (n + 1) / 3, r = (n + 1) % 3;
-        int a = q, b = q, c = q;
-        string kedar(n, '0');
-
-        if (r == 0 && q % 2 == 1) {
-            kedar[q - 1] = '1';
-            kedar[q + 1] = '1';
-            kedar[2 * q + 1] = '1';
+        bool BoolSheet = 0;
+        int l = 0, r = n - 1;
+        while(l < n && s[l] == '0') l++;
+        while(r >= 0 && s[r] == '1') r--;
+        if (l > r) {
+            cout << "Bob" << '\n';
+            continue;
         }
-        else {
-            if (r == 1) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-            else if (r == 2) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
 
-            kedar[a - 1] = '1';
-            kedar[a + b - 1] = '1';
+        int cnt = 1;
+        for(int i = l; i < r; i++){
+            if(s[i + 1] == s[i]) cnt++;
+            else{
+                if(cnt % 2 == 1) BoolSheet = true;
+                cnt = 1;
+            }
         }
-        cout << kedar << '\n';
+
+        if(cnt % 2 == 1) BoolSheet = true;
+        cout << (BoolSheet ? "Alice" : "Bob") << '\n';
     }
 }

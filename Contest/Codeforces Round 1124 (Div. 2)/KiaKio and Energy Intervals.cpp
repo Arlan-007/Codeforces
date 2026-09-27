@@ -31,8 +31,8 @@
 
 using namespace std;
 
-#pragma GCC optimize("O3")
-#pragma GCC optimize("unroll-loops")
+#pragma GCC optimize("Ofast,unroll-loops,inline")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx2,lzcnt,bmi2,bmi,tune=native")
 
 using ll = long long;
 
@@ -43,36 +43,26 @@ const int MOD = 1'000'000'007;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    int t = 1;
+    int t;
     cin >> t;
     while (t--) {
         int n; cin >> n;
-        if (n == 1) {cout << "1" << "\n"; continue;}
-        if (n == 2) {cout << "11" << "\n"; continue;}
+        int a[n];
+        for (int i = 0; i < n; i++) cin >> a[i];
 
-        int q = (n + 1) / 3, r = (n + 1) % 3;
-        int a = q, b = q, c = q;
-        string kedar(n, '0');
+        int ans = 0;
+        for (int l = 0; l < n - 1; l++) {
+            int xr = a[l];
+            int mx = a[l];
 
-        if (r == 0 && q % 2 == 1) {
-            kedar[q - 1] = '1';
-            kedar[q + 1] = '1';
-            kedar[2 * q + 1] = '1';
-        }
-        else {
-            if (r == 1) {
-                if (q % 2 == 0) a++;
-                else b++;
+            for (int r = l + 1; r < n; r++) {
+                xr ^= a[r];
+                if (a[r] > mx) mx = a[r];
+                if ((xr & mx) > ans) ans = xr & mx;
             }
-            else if (r == 2) {
-                if (q % 2 == 0) a++;
-                else b++;
-            }
-
-            kedar[a - 1] = '1';
-            kedar[a + b - 1] = '1';
         }
-        cout << kedar << '\n';
+        cout << ans << '\n';
     }
 }
