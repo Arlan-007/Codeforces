@@ -40,19 +40,39 @@ const ll INF = (ll) 4e18;
 const ll NEG = -INF;
 const int MOD = 1'000'000'007;
 
-int root[200005], sz[200005];
+struct DSU{
+    vector<int> p, sz;
+    vector<ll> score;
 
-int find(int x) {
-    return root[x] == x ? x : root[x] = find(root[x]);
-}
+    DSU(int n){
+        p.assign(n, 0);
+        sz.assign(n, 1);
+        score.assign(n, 0);
+        for (int i = 0; i < n; i++) p[i] = i;
+    }
 
-void unite(int x, int y) {
-    x = find(x); y = find(y);
-    if (x == y) return;
+    int find(int x) {
+        return p[x] == x ? x : p[x] = find(p[x]);
+    }
 
-    if (sz[x] < sz[y]) swap(x, y);
-    root[y] = x; sz[x] += sz[y];
-}
+    void unite(int a, int b) {
+        a = find(a), b = find(b);
+        if (a == b) return;
+        if (sz[a] < sz[b]) swap(a, b);
+        p[b] = a;
+        sz[a] += sz[b];
+        score[a] += score[b];
+    }
+
+    bool same(int u, int v){
+        return find(u) == find(v);
+    }
+
+    int size(int u){
+        u = find(u);
+        return sz[u];
+    }
+};
 
 int main() {
     ios::sync_with_stdio(false);
@@ -64,36 +84,42 @@ int main() {
         int n; cin >> n;
         string s; cin >> s;
 
-        auto zero = [&](int i, int j) -> bool {
-            if (i == j) return s[j] == '1';
-            return s[j] == '0';
-        };
-
-        int tot = n * n;
-        for (int i = 0; i < tot; i++) {
-            root[i] = i;
-            sz[i] = 1;
-        }
+        DSU dsu(2 * n);
+        vector<pair<int, int>> prev;
 
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (!zero(i, j)) continue;
-                int cur = i * n + j;
-                if (j + 1 < n && zero(i, j + 1)) unite(cur, i * n + j + 1);
-                if (i + 1 < n && zero(i + 1, j)) unite(cur, (i + 1) * n + j);
+            if (s[i] == '1'){
+                dsu.score[2 * i] = 1;
+                dsu.unite(2 * i, 2 * i + 1);
+
+                for (int j = 0; j < prev.size(); j++){
+                    int l = prev[j].first;
+                    int r = prev[j].second;
+                    if (i >= l && i <= r) dsu.unite(2 * i, 2 * (i - 1) + j);
+                }
+                prev = {{i, i}};
+                continue;
             }
-        }
 
-        int mx = 0;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (zero(i, j)) {
-                    int rt = find(i * n + j);
-                    mx = max(mx, sz[rt]);
+            vector<pair<int, int>> nxt = {{0, i - 1}, {i + 1, n - 1}};
+            for (int j = 0; j < nxt.size(); j++){
+                auto [l, r] = nxt[j];
+                dsu.score[2 * i + j] = r - l + 1;
+            }
+            for (int j = 0; j < prev.size(); j++){
+                for (int k = 0; k < nxt.size(); k++){
+                    auto [l1, r1] = prev[j];
+                    auto [l2, r2] = nxt[k];
+                    if (l2 > r1 || r2 < l1) continue;
+                    dsu.unite(2 * i + k, 2 * (i - 1) + j);
                 }
             }
+            prev = nxt;
         }
-        cout << mx << '\n';
+
+        ll ans = 0;
+        for (int i = 0; i < 2 * n; i++) ans = max(ans, dsu.score[i]);
+        cout << ans << "\n";
 
     }
 }
