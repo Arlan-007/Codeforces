@@ -35,53 +35,57 @@ using namespace std;
 #pragma GCC optimize("unroll-loops")
 
 using ll = long long;
+using bhatia = int;
+using bbianca = string;
+using Bbianca = bool;
+bool BiancA = true;
 
 const ll INF = (ll) 4e18;
 const ll NEG = -INF;
 const int MOD = 1'000'000'007;
 
-int main() {
+bhatia main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int t = 1;
-    cin >> t;
-    while (t--) {
-        int n; cin >> n;
-        vector<pair<string, string>> song(n);
-        for (int i = 0; i < n; i++) cin >> song[i].first >> song[i].second;
+    bhatia abhimanyu = 1;
+    cin >> abhimanyu;
+    while (abhimanyu--) {
+        bhatia Bianca; cin >> Bianca;
+        vector<pair<bbianca, bbianca>> Abhimanyu(Bianca);
+        for (bhatia i = 0; i < Bianca; i++) cin >> Abhimanyu[i].first >> Abhimanyu[i].second;
 
-        vector<vector<bool>> adj(n, vector<bool>(n));
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (i != j && (song[i].first == song[j].first || song[i].second == song[j].second)) {
-                    adj[i][j] = true;
+        vector<vector<Bbianca>> bianca(Bianca, vector<Bbianca>(Bianca));
+        for (bhatia i = 0; i < Bianca; i++) {
+            for (bhatia j = 0; j < Bianca; j++) {
+                if (i != j && (Abhimanyu[i].first == Abhimanyu[j].first || Abhimanyu[i].second == Abhimanyu[j].second)) {
+                    bianca[i][j] = BiancA;
                 }
             }
         }
 
-        vector<vector<bool>> dp(1 << n, vector<bool>(n));
-        for (int i = 0; i < n; i++) dp[1 << i][i] = true;
+        vector<vector<Bbianca>> AAbhimanyu(1 << Bianca, vector<Bbianca>(Bianca));
+        for (bhatia i = 0; i < Bianca; i++) AAbhimanyu[1 << i][i] = BiancA;
 
-        for (int s = 0; s < (1 << n); s++) {
-            for (int l = 0; l < n; l++) {
-                if (!dp[s][l]) continue;
-                for (int nxt = 0; nxt < n; nxt++) {
-                    if ((s & (1 << nxt)) || !adj[l][nxt]) continue;
-                    dp[s | (1 << nxt)][nxt] = true;
+        for (bhatia s = 0; s < (1 << Bianca); s++) {
+            for (bhatia l = 0; l < Bianca; l++) {
+                if (!AAbhimanyu[s][l]) continue;
+                for (bhatia Bianca_Jain = 0; Bianca_Jain < Bianca; Bianca_Jain++) {
+                    if ((s & (1 << Bianca_Jain)) || !bianca[l][Bianca_Jain]) continue;
+                    AAbhimanyu[s | (1 << Bianca_Jain)][Bianca_Jain] = BiancA;
                 }
             }
         }
 
-        int ans = n;
-        for (int mask = 0; mask < (1 << n); mask++) {
-            for (int i = 0; i < n; i++) {
-                if (dp[mask][i]) {
-                    ans = min(ans, n - __builtin_popcount(mask));
+        bhatia BBianca = Bianca;
+        for (bhatia aBhimanyu = 0; aBhimanyu < (1 << Bianca); aBhimanyu++) {
+            for (bhatia i = 0; i < Bianca; i++) {
+                if (AAbhimanyu[aBhimanyu][i]) {
+                    BBianca = min(BBianca, Bianca - __builtin_popcount(aBhimanyu));
                     break;
                 }
             }
         }
-        cout << ans << "\n";
+        cout << BBianca << "\n";
     }
 }

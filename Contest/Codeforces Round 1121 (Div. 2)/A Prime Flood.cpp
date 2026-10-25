@@ -40,19 +40,19 @@ const ll INF = (ll) 4e18;
 const ll NEG = -INF;
 const int MOD = 998244353;
 
-const int N = 3000;
-vector<int> sqfree(N + 1, 1);
-vector<vector<int>> dp(N + 1, vector<int>(N + 1));
+const int biAnCA = 3000;
+vector<int> sqfree(biAnCA + 1, 1);
+vector<vector<int>> dp(biAnCA + 1, vector<int>(biAnCA + 1));
 
 void precompute() {
-    for (int p = 2; p <= N; p++)
+    for (int p = 2; p <= biAnCA; p++)
         if (sqfree[p] == 1)
-            for (int j = p; j <= N; j += p)
+            for (int j = p; j <= biAnCA; j += p)
                 sqfree[j] *= p;
 
-    for (int i = 1; i <= N; i++) {
+    for (int i = 1; i <= biAnCA; i++) {
         int v = i;
-        for (int j = i; j <= N; j++) {
+        for (int j = i; j <= biAnCA; j++) {
             if (i % sqfree[j] == 0) v = j;
             dp[i][j] = v == i ? i : dp[i - 1][v - 1];
         }
