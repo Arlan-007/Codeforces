@@ -23,7 +23,7 @@ TOKEN_PATTERN = re.compile(
 )
 
 
-def name(index):
+def change_name(index):
     base = NAMES[index % len(NAMES)]
     case_pattern = index // len(NAMES)
     return "".join(
@@ -45,7 +45,7 @@ def biancafy(source):
 
         if token not in to_bianca:
             index = len(to_bianca)
-            name = name(index)
+            name = change_name(index)
             while name in used or name.lower() in to_bianca:
                 index += 1
                 name = name(index)
