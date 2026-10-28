@@ -1,36 +1,30 @@
-# Codeforces Solutions
+# Competitive Programming Solutions
 
-This repository contains my solutions to problems solved on **Codeforces**.
+This repository contains my solutions to competitive programming problems from contests and independent practice. I use it to keep my work organized, revisit problems, and track my progress over time.
 
-## Purpose
+I participate in contests on platforms such as Codeforces and AtCoder. The repository also includes solutions from other contests and practice events.
 
-The goal of this repository is to:
+## Profiles
 
-* Maintain a complete history of my Codeforces progress.
-* Track my growth as a competitive programmer over time.
-* Archive solutions from both contests and practice.
-* Revisit past problems for revision and learning.
+- [Codeforces — Arlan007](https://codeforces.com/profile/Arlan007)
+- [AtCoder — Arlan007](https://atcoder.jp/users/Arlan007)
 
-## Contents
+## Repository structure
 
-The repository includes solutions from:
+### `Contest/`
 
-* Codeforces contests
-* Virtual contests
-* Practice problems
-* Upsolving after contests
+This directory contains problems I solved during contests and virtual contests. Solutions are grouped into folders by contest or event, making it easier to find the problems from a particular round.
 
-Each solution is uploaded after I solve the problem, creating a chronological record of my journey.
+### `Non-Contest/`
+
+This directory contains problems I solve during individual practice outside contests. These are problems I work on separately, rather than as part of a live or virtual contest.
 
 ## Languages
 
-Currently, solutions are primarily written in:
+- **C++** — one of my main languages for competitive programming.
+- **Rust** — another language I regularly use for solutions.
+- **Go** — a newer addition that I want to use more as I continue practicing.
 
-* C++
-* Rust
+## About the solutions
 
-Additional languages may be added in the future.
-
-## Note
-
-This repository is intended as a personal archive and progress tracker. Solutions may not always be the shortest or most optimized—they reflect my understanding at the time of solving.
+Each file is a standalone solution to a problem. The code is kept as part of my personal learning and practice archive, so approaches and coding style may vary between solutions. I may return to problems later to review or improve my understanding.

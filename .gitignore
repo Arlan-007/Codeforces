@@ -1,0 +1,24 @@
+# macOS metadata
+.DS_Store
+
+# IDE and editor settings
+.idea/
+.vscode/
+
+# Compiled C/C++ artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Rust and Go build output
+**/target/
+/bin/
+
+# Python cache files
+__pycache__/
+*.py[cod]
