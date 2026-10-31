@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
@@ -32,17 +32,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0284c97d-5cf7-4b02-b440-0dedff870ef5" name="Changes" comment="mashup_2">
-      <change afterPath="$PROJECT_DIR$/Non-Contest/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/AquaMoon and Chess.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/Decode.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/Distinct Characters Queries.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/Domino Tiles.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/Longest Regular Bracket Sequence.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/Three Numbers on the Blackboard.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Non-Contest/Watering an Array.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1127 (Div. 2, Based on Mexican Olympiad in Informatics 2026)/Robot Championship.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Codeforces Round 1127 (Div. 2, Based on Mexican Olympiad in Informatics 2026)/Robot_Championship.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contest/Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)/AND-array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Codeforces.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Codeforces.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Non-Contest/Permutation Cuts.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Non-Contest/Permutation Cuts.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Non-Contest/Yura and Deadlines.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Non-Contest/Yura and Deadlines.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +66,7 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
+      <entry key="_/Volumes/Samsung PSSD T7/CP/Codeforces" value="3LKwayw4lER9cQwUtUMjJ17s9Q9" />
       <entry key="_/Volumes/Samsung PSSD T7/Codeforces" value="33uOwCB5Ksi0pJ2gShGdVC1LESV" />
       <entry key="_/Volumes/Samsung PSSD T7/Codeforces/.idea" value="3DttE1JFfQuay3JojOpz3aIkea0" />
     </persistenceIdMap>
@@ -89,9 +84,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CMakeLists" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
+  <component name="GOROOT" url="file:///opt/homebrew/opt/go/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -103,7 +100,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:Arlan-007/Codeforces.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Arlan-007/Codeforces&quot;,
     &quot;accountId&quot;: &quot;cba00334-f43f-477e-bdbb-218a1316c39b&quot;
   }
 }</component>
@@ -138,6 +135,7 @@
         <option name="targetType" value="LOCAL" />
       </template>
     </option>
+    <option name="version" value="1" />
   </component>
   <component name="ProjectStatusUIService">{
   &quot;uiKindId&quot;: &quot;Widget&quot;
@@ -146,84 +144,97 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;C/C++ File.Anton and Danik.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Bear and Big Brother.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Beautiful Matrix.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Beautiful Year.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Bit++.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Boy or Girl.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Calculating Function.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Carpeting the Room.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Cheap Travel.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Domino piling.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Drinks.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Elephant.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Even Odds.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Favorite Sequence.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Football.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.George and Accommodation.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.HQ9+.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Helpful Maths.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.In Search of an Easy Problem.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Magnets.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Make It Increasing.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Nearly Lucky Number.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Next Round.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Operations with Inversions.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Optimal Shifts.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Password Check.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Petya and Strings.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Presents.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Queue at the School.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Soldier and Bananas.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Stones on the Table.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Team.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Tram.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Translation.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Twins.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Vanya and Fence.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Watermelon.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Way Too Long Words.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Word Capitalization.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Word.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.Wrong Subtraction.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.hello.cpp (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.hello.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;copilot.chat.legacySessionMetadata.migrated&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Samsung PSSD T7/Codeforces&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
-    &quot;org.rust.hideNoCargoProjectNotifications/Volumes/Samsung PSSD T7/Codeforces/Contest/Codeforces Round 1114 (Div. 3)/Silhouette.rs&quot;: &quot;true&quot;,
-    &quot;org.rust.hideNoCargoProjectNotifications/Volumes/Samsung PSSD T7/Codeforces/Contest/Mashup_3/Concatenation_of_Arrays.rs&quot;: &quot;true&quot;,
-    &quot;org.rust.hideNoCargoProjectNotifications/Volumes/Samsung PSSD T7/Codeforces/Contest/Mashup_3/How_Does_the_Rook_Move.rs&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "C/C++ File.Anton and Danik.cpp.executor": "Run",
+    "C/C++ File.Bear and Big Brother.cpp.executor": "Run",
+    "C/C++ File.Beautiful Matrix.cpp.executor": "Run",
+    "C/C++ File.Beautiful Year.cpp.executor": "Run",
+    "C/C++ File.Bit++.cpp.executor": "Run",
+    "C/C++ File.Boy or Girl.cpp.executor": "Run",
+    "C/C++ File.Calculating Function.cpp.executor": "Run",
+    "C/C++ File.Carpeting the Room.cpp.executor": "Run",
+    "C/C++ File.Cheap Travel.cpp.executor": "Run",
+    "C/C++ File.Domino piling.cpp.executor": "Run",
+    "C/C++ File.Drinks.cpp.executor": "Run",
+    "C/C++ File.Elephant.cpp.executor": "Run",
+    "C/C++ File.Even Odds.cpp.executor": "Run",
+    "C/C++ File.Favorite Sequence.cpp.executor": "Run",
+    "C/C++ File.Football.cpp.executor": "Run",
+    "C/C++ File.George and Accommodation.cpp.executor": "Run",
+    "C/C++ File.HQ9+.cpp.executor": "Run",
+    "C/C++ File.Helpful Maths.cpp.executor": "Run",
+    "C/C++ File.In Search of an Easy Problem.cpp.executor": "Run",
+    "C/C++ File.Magnets.cpp.executor": "Run",
+    "C/C++ File.Make It Increasing.cpp.executor": "Run",
+    "C/C++ File.Nearly Lucky Number.cpp.executor": "Run",
+    "C/C++ File.Next Round.cpp.executor": "Run",
+    "C/C++ File.Operations with Inversions.cpp.executor": "Run",
+    "C/C++ File.Optimal Shifts.cpp.executor": "Run",
+    "C/C++ File.Password Check.cpp.executor": "Run",
+    "C/C++ File.Petya and Strings.cpp.executor": "Run",
+    "C/C++ File.Presents.cpp.executor": "Run",
+    "C/C++ File.Queue at the School.cpp.executor": "Run",
+    "C/C++ File.Soldier and Bananas.cpp.executor": "Run",
+    "C/C++ File.Stones on the Table.cpp.executor": "Run",
+    "C/C++ File.Team.cpp.executor": "Run",
+    "C/C++ File.Tram.cpp.executor": "Run",
+    "C/C++ File.Translation.cpp.executor": "Run",
+    "C/C++ File.Twins.cpp.executor": "Run",
+    "C/C++ File.Vanya and Fence.cpp.executor": "Run",
+    "C/C++ File.Watermelon.cpp.executor": "Run",
+    "C/C++ File.Way Too Long Words.cpp.executor": "Run",
+    "C/C++ File.Word Capitalization.cpp.executor": "Run",
+    "C/C++ File.Word.cpp.executor": "Run",
+    "C/C++ File.Wrong Subtraction.cpp.executor": "Run",
+    "C/C++ File.hello.cpp (1).executor": "Run",
+    "C/C++ File.hello.cpp.executor": "Run",
+    "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build AND-array.go.executor": "Run",
+    "Go Build.go build Codeforces Round 1127 (Div. 2, Based on Mexican Olympiad in Informatics 2026)/.executor": "Run",
+    "Go Build.go build Robot_Championship.go.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboardingV2": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.GoOptimizationToolWindowEnableInLayout.v333333": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.analysis.ui.options.defaults": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "go.sdk.automatically.set": "true",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Volumes/Samsung PSSD T7/CP/Codeforces",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.hideNoCargoProjectNotifications/Volumes/Samsung PSSD T7/Codeforces/Contest/Codeforces Round 1114 (Div. 3)/Silhouette.rs": "true",
+    "org.rust.hideNoCargoProjectNotifications/Volumes/Samsung PSSD T7/Codeforces/Contest/Mashup_3/Concatenation_of_Arrays.rs": "true",
+    "org.rust.hideNoCargoProjectNotifications/Volumes/Samsung PSSD T7/Codeforces/Contest/Mashup_3/How_Does_the_Rook_Move.rs": "true",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -237,8 +248,74 @@
       <recent name="$PROJECT_DIR$/Contest/Codeforces Round 1089 (Div. 2)" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="GoApplicationRunConfiguration" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="GoApplicationRunConfiguration">
+          <value>
+            <map>
+              <entry key="go build AND-array.go" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build AND-array.go">
+    <configuration name="go build AND-array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Codeforces" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Contest/Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)/AND-array.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Codeforces Round 1127 (Div. 2, Based on Mexican Olympiad in Informatics 2026)/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="Codeforces" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/Contest/Codeforces Round 1127 (Div. 2, Based on Mexican Olympiad in Informatics 2026)" />
+      <auto_managed_config_id value="$PROJECT_DIR$/Contest/Codeforces Round 1127 (Div. 2, Based on Mexican Olympiad in Informatics 2026)" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="Codeforces" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$/Contest/Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)" />
+      <auto_managed_config_id value="$PROJECT_DIR$/Contest/Nebius Round 2 (Codeforces Round 1088, Div. 1 + Div. 2)" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build Robot_Championship.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Codeforces" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Contest/Codeforces Round 1127 (Div. 2, Based on Mexican Olympiad in Informatics 2026)/Robot_Championship.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build AND-array.go" />
+        <item itemvalue="Go Build.go build Robot_Championship.go" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-63c95d513abe-08e7ff217c2b-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-262.10315.160" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-GO-262.10315.160" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

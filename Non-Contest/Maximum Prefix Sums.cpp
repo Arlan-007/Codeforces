@@ -50,36 +50,32 @@ int main() {
     while (t--) {
         int n; cin >> n;
         string s; cin >> s;
-        vector<ll> a(n + 1), b(n + 1, NEG), c(n + 1);
-        for (int i = 1; i <= n; i++) cin >> a[i];
-        for (int i = 1; i <= n; i++) cin >> c[i];
+        vector<ll> a(n), c(n);
+        for (int i = 0; i < n; i++) cin >> a[i];
+        for (int i = 0; i < n; i++) cin >> c[i];
 
+        ll sum = 0, last = -1;
         bool ans = true;
-        for (int i = 2; i <= n; i++) if (c[i] < c[i - 1]) ans = false;
-        b[1] = c[1];
+        for (int i = 0; i < n && ans; i++) {
+            if (i && c[i] < c[i - 1]) ans = false;
 
-        for (int i = 2; i <= n; i++) {
-            if (s[i - 1] == '1') b[i] = b[i - 1] + a[i];
-            else {
-                if (c[i] > c[i - 1]) b[i] = c[i];
-                else b[i] = b[i - 1];
-                a[i] = b[i] - b[i - 1];
+            if (s[i] == '0') a[i] = c[i] - sum, last = i;
+            sum += a[i];
+
+            if (sum > c[i]) {
+                if (last == -1) ans = false;
+                else a[last] -= sum - c[i], sum = c[i];
             }
 
-            if (b[i] > c[i]) ans = false;
-            if (c[i] > c[i - 1] && b[i] != c[i]) ans = false;
-        }
-
-        ll sum = 0, mx = NEG;
-        for (int i = 1; i <= n; i++) {
-            sum += a[i];
-            mx = max(mx, sum);
-            if (sum != b[i] || mx != c[i]) ans = false;
+            if (!i || c[i] > c[i - 1]) {
+                if (sum != c[i]) ans = false;
+                last = -1;
+            }
         }
 
         if (ans) {
             cout << "Yes" << "\n";
-            for (int i = 1; i <= n; i++) cout << a[i] << " ";
+            for (int i = 0; i < n; i++) cout << a[i] << " ";
             cout << '\n';
         } else cout << "No" << '\n';
     }
