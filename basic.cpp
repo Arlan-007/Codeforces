@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 #pragma GCC optimize("Ofast,unroll-loops,inline")

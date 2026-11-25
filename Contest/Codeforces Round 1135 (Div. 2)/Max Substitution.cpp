@@ -48,5 +48,22 @@ int main() {
     int t;
     cin >> t;
     while (t--) {
+        int n; cin >> n;
+        vector<int> a(n);
+        for (int &x : a) cin >> x;
+        sort(a.rbegin(), a.rend());
+
+        ll ans = 1;
+        for (int i = 0; i < n; i++) {
+            if (i + 1 < n && a[i] == a[i + 1]) break;
+
+            ll base = a[i] - 1, ways = 1;
+            for (int e = i + 1; e > 0; e /= 2) {
+                if (e & 1) ways = ways * base % MOD;
+                base = base * base % MOD;
+            }
+            ans = (ans + ways) % MOD;
+        }
+        cout << ans << '\n';
     }
 }

@@ -13,11 +13,7 @@ I participate in contests on platforms such as Codeforces and AtCoder. The repos
 
 ### `Contest/`
 
-This directory contains problems I solved during contests and virtual contests. Solutions are grouped into folders by contest or event, making it easier to find the problems from a particular round.
-
-### `Non-Contest/`
-
-This directory contains problems I solve during individual practice outside contests. These are problems I work on separately, rather than as part of a live or virtual contest.
+Solutions are grouped by their original contest or event. Each folder can include solutions from live contests, virtual contests, and independent practice.
 
 ## Languages
 
