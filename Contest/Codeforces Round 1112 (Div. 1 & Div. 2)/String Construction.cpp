@@ -48,5 +48,15 @@ int main() {
     int t;
     cin >> t;
     while (t--) {
+        int n, k; cin >> n >> k;
+        if (k == n - 1) {
+            cout << -1 << '\n';
+            continue;
+        }
+
+        string s(k / 2 + 1, '0');
+        s.append((k + 1) / 2 + 1, '1');
+        for (int i = 2; i < n - k; i++) s += '0' + i % 2;
+        cout << s << '\n';
     }
 }
